@@ -86,16 +86,18 @@ layout: default
             <p>Fill out your name, email address and what you want to tell me, click submit and I will receive your message.</p>
             <div class="row">
               <div class="8u 12u$(small)" style="width: 63%">
-                <form method="post" action="#">
+                <form method="post" action="http://formspree.io/phy.david.zhang@outlook.com">
                   <div class="row uniform 50%">
                     <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                     <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                     <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                   </div>
+                  <div style="margin-top: 1em">
+                    <ul class="actions">
+                      <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                  </div>
                 </form>
-                <ul class="actions">
-                  <li><input type="submit" value="Send Message" /></li>
-                </ul>
               </div>
               <div class="4u$ 12u$(small)" style="width: 37%; margin: 1em 0;">
                 <ul class="labeled-icons">
