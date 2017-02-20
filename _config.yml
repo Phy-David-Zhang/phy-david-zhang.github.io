@@ -1,6 +1,7 @@
 locale: "en-US"
 title: "Main Entrance" # Title of your site
-url:  # the base hostname & protocol for your site
+url: https://chx-zh.cc # the base hostname & protocol for your site
+enforce_ssl: chx-zh.cc
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
