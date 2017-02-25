@@ -689,7 +689,7 @@
 		}
 
 		.row {
-			margin: 25px 0 -1px -2em;
+			margin: 0.5em 0 0.5em -2em;
 		}
 
 		.row.uniform > * {
@@ -904,7 +904,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -2em;
+			margin: 15px 0 -1px -2em;
 		}
 
 		.row.uniform > * {
@@ -1334,7 +1334,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5em;
+			margin: 15px 0 -1px -1.5em;
 		}
 
 		.row.uniform > * {
@@ -2453,6 +2453,133 @@
 			margin: 0;
 		}
 
+	.illustration {
+		margin: 0;
+	}
+
+		.illustration p {
+			margin: 0;
+		}
+
+		.illustration span {
+			vertical-align: middle;
+		}
+
+	@media screen and (max-width: 1800px) {
+
+		.work-item {
+			margin: 0 0 0.5em 1.5em;
+			width: 30%;
+		}
+
+			.work-item .image {
+				margin: 0;
+			}
+
+			.work-item h3 {
+				font-size: 1em;
+				margin: 0 0 0.5em 0;
+			}
+
+			.work-item p {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0;
+			}
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.work-item {
+			margin: 0.5em 0 0.5em 1.5em;
+			width: 30%;
+		}
+
+			.work-item .image {
+				margin: 0;
+			}
+
+			.work-item h3 {
+				font-size: 1em;
+				margin: 0 0 0.5em 0;
+			}
+
+			.work-item p {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0;
+			}
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.work-item {
+			margin: 0 0 0.5em 1.5em;
+			width: 30%;
+		}
+
+			.work-item .image {
+				margin: 0;
+			}
+
+			.work-item h3 {
+				font-size: 1em;
+				margin: 0 0 0.5em 0;
+			}
+
+			.work-item p {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0;
+			}
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.work-item {
+			margin: 0 0 0.5em 1.5em;
+			width: 80%;
+		}
+
+			.work-item .image {
+				margin: 0;
+			}
+
+			.work-item h3 {
+				font-size: 1em;
+				margin: 0 0 0.5em 0;
+			}
+
+			.work-item p {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0;
+			}
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.work-item {
+			margin: 0 0 0.5em 1.5em;
+			width: 80%;
+		}
+
+			.work-item .image {
+				margin: 0;
+			}
+
+			.work-item h3 {
+				font-size: 1em;
+				margin: 0 0 0.5em 0;
+			}
+
+			.work-item p {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0;
+			}
+	}
+
 /* Header */
 
 	#header {
@@ -3144,6 +3271,71 @@
  /**
   * Custom
 	*/
+
+/* Feedback Form and Address */
+
+	.feedback {
+		width: 63%;
+	}
+
+	.address {
+		width: 37%;
+	}
+
+	@media screen and (max-width: 1800px) {
+
+		.feedback {
+			width: 63%;
+		}
+
+		.address {
+			width: 37%;
+		}
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.feedback {
+			width: 63%;
+		}
+
+		.address {
+			width: 37%;
+		}
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.feedback {
+			width: 63%;
+		}
+
+		.address {
+			width: 37%;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.feedback {
+			width: 100%;
+		}
+
+		.address {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.feedback {
+			width: 100%;
+		}
+
+		.address {
+			width: 100%;
+		}
+	}
 
  /* CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/) */
 
