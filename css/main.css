@@ -2593,7 +2593,7 @@
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em 0 0;
+		padding: 8em 4em 0 10%;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2625,7 +2625,7 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 4em 6em 17%;
 		position: fixed;
 		text-align: right;
 		width: 35%;
