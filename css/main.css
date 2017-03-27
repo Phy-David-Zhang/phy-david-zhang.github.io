@@ -2648,7 +2648,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.25);
+				/* border-left: solid 1px rgba(255, 255, 255, 0.25); */
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 0.75em;
