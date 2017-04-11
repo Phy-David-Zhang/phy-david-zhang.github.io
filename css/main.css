@@ -2435,12 +2435,13 @@
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		width: 30%;
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			/* margin: 0 0 1.5em 0; */
+			margin: 0;
 		}
 
 		.work-item h3 {
@@ -2469,7 +2470,7 @@
 	@media screen and (max-width: 1800px) {
 
 		.work-item {
-			margin: 0 0 0.5em 1.5em;
+			margin: 0 0 0.5em 0;
 			width: 30%;
 		}
 
