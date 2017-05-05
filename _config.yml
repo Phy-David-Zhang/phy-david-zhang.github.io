@@ -21,6 +21,7 @@ social:
     - https://github.com/Phy-David-Zhang
 
 permalink: /:title
+include: ['_pages']
 
 gems:
   - "jekyll-feed"
