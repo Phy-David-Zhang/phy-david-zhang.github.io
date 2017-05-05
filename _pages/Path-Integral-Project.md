@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: "/Path-Integral-Project"
+permalink: /Path-Integral-Project/
 ---
 
 ## Path Integral Project
