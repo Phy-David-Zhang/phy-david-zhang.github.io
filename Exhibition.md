@@ -74,6 +74,17 @@ layout: list
 
 <div class="row">
 
+  <!-- Report on Scientific Haskell -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+    <span>
+    <a href="https://github.com/Phy-David-Zhang/Scientific-Haskell">
+      <h3>Report on Haskell in Scientific Computation</h3></a>
+    <p style="font-size: 1em">This report analyse the possibility of invoking lazy evaluation scheme in Haskell to scientific computation. The efficiency of Schrodinger equation solvers in C, Haskell and Python are investigated and Haskell provides appealing outcomes.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Schrodinger Equation Solver -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
