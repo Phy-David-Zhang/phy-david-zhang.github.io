@@ -20,7 +20,7 @@ layout: list
   <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
     <span>
     <a href="Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
-    <p style="font-size: 1em">Brief Review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
+    <p style="font-size: 1em">General review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
     </span>
   </article>
   </div>
