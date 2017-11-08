@@ -6,7 +6,7 @@ layout: post
 
 ### Introduction
 
-This document illustrates the methodology and the construction of fundamental theory of Physics. We show how to derive a physical theory based solely on mathematical requirements on self-consistency (symmetric principle). However, it should be claimed that this may only represent the opinions of some theoretical physicists, which means it may not be a widely accepted view towards fundamental theory of Physics. Thus, discussions are welcomed.
+This document illustrates the methodology and the construction of the fundamental theory of Physics. We show how to derive a physical theory based solely on mathematical requirements on self-consistency (symmetric principle). Under this framework, all classical theories are placed within a Universal Dynamics. The main body is written in an inspirational and revealing style. Consult the appendix for mathematical constructions and supplementary explications.
 
 ### Document
 
