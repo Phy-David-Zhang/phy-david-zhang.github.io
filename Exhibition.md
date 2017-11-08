@@ -43,7 +43,7 @@ layout: list
   <!-- Path Integral Project -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item">
-    <a href="Path-Integral-Project" class="image fit thumb"><img src="images/UnivMathSys.png" alt="" /></a>
+    <a href="Path-Integral-Project" class="image fit thumb"><img src="images/Path_Integral.png" alt="" /></a>
   </article>
   <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
     <span>
