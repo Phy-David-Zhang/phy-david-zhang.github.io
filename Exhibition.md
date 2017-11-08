@@ -12,13 +12,26 @@ layout: list
 
 <div class="row">
 
+  <!-- Gauge Gravity Duality -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item">
+    <a href="Gauge-Gravity-Duality" class="image fit thumb"><img src="images/Gauge_Gravity.png" alt="" /></a>
+  </article>
+  <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
+    <span>
+    <a href="Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
+    <p style="font-size: 1em">Brief Review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Constructive Physics -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item">
     <a href="Constructive-Physics" class="image fit thumb"><img src="images/ConsPhysPro.png" alt="" /></a>
   </article>
   <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
-    <a href="Constructive-Physics"><h2>Constructive Physics Project</h2></a>
+    <a href="Constructive-Physics"><h2>Constructive Physics</h2></a>
     <p style="font-size: 1em">Constructive Physics Project, an attempt to place theoretical Physics under firm mathematical background.</p>
   </article>
   </div>

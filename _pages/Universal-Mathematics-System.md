@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /Universal-Mathematics-System/
 ---
 
 ## Universal Maths System
