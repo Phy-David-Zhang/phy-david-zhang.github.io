@@ -17,7 +17,7 @@ layout: list
   <article class="6u 12u$(xsmall) work-item">
     <a href="Gauge-Gravity-Duality" class="image fit thumb"><img src="images/Gauge_Gravity.png" alt="" /></a>
   </article>
-  <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
     <span>
     <a href="Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
     <p style="font-size: 1em">General review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
@@ -30,7 +30,7 @@ layout: list
   <article class="6u 12u$(xsmall) work-item">
     <a href="Constructive-Physics" class="image fit thumb"><img src="images/ConsPhysPro.png" alt="" /></a>
   </article>
-  <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
     <a href="Constructive-Physics"><h2>Constructive Physics</h2></a>
     <p style="font-size: 1em">Constructive Physics Project, an attempt to place theoretical Physics under firm mathematical background.</p>
   </article>
@@ -41,7 +41,7 @@ layout: list
   <article class="6u 12u$(xsmall) work-item">
     <a href="Structure-of-Physics" class="image fit thumb"><img src="images/Structure_of_Physics.png" alt="" /></a>
   </article>
-  <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
     <a href="Structure-of-Physics"><h2>Structure of Physics</h2></a>
     <p style="font-size: 1em">This article elaborates the construction of fundamental theory of Physics based solely on requirements on self-consistency.</p>
   </article>
@@ -58,7 +58,7 @@ layout: list
   <article class="6u 12u$(xsmall) work-item">
     <a href="Path-Integral-Project" class="image fit thumb"><img src="images/Path_Integral.png" alt="" /></a>
   </article>
-  <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
     <span>
     <a href="Path-Integral-Project"><h2>Path Integral Project</h2></a>
     <p style="font-size: 1em">This project is a didactic introduction towards rigorous Quantum Field Theory under path integral formalism.</p>
@@ -71,7 +71,7 @@ layout: list
   <article class="6u 12u$(xsmall) work-item">
     <a href="Universal-Mathematics-System" class="image fit thumb"><img src="images/UnivMathSys.png" alt="" /></a>
   </article>
-  <article class="6u 12u$(xsmall) illustration" style="margin: 13px 0">
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
     <span>
     <a href="Universal-Mathematics-System"><h2>Universal Maths System</h2></a>
     <p style="font-size: 1em">This project is an attempt to formulate and recognize abstract mathemtical theories through computer language.</p>

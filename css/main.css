@@ -1119,7 +1119,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5em;
+			margin: 15px 0 -1px -1em;
 		}
 
 		.row.uniform > * {
@@ -2456,7 +2456,8 @@
 		}
 
 	.illustration {
-		margin: 0;
+		margin: 13px 0;
+		max-width: 350px;
 	}
 
 		.illustration p {
@@ -2557,6 +2558,12 @@
 				line-height: 1.5em;
 				margin: 0;
 			}
+
+			.illustration {
+				margin: 13px 2em;
+				max-width: 320px;
+				width: 70%
+			}
 	}
 
 	@media screen and (max-width: 480px) {
@@ -2579,6 +2586,12 @@
 				font-size: 0.8em;
 				line-height: 1.5em;
 				margin: 0;
+			}
+
+			.illustration {
+				margin: 13px 2em;
+				max-width: 320px;
+				width: 80%
 			}
 	}
 
