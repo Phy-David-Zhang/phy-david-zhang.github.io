@@ -42,7 +42,7 @@ layout: blog
 	<!-- Liverpool -->
 
 	<article class="6u 12u$(xsmall) blog work-item">
-		<a href="https://scontent-hkg3-1.cdninstagram.com/vp/b67b2fa3efd7149a30a7ddcf1082311d/5B706B97/t51.2885-15/s1080x1080/e15/fr/29093559_152853602208511_2508737887046991872_n.jpg" class="image fit thumb"><img src="images/gallery/liverpool.jpg" alt="" /></a>
+		<a href="https://scontent-hkg3-1.cdninstagram.com/vp/b67b2fa3efd7149a30a7ddcf1082311d/5B706B97/t51.2885-15/s1080x1080/e15/fr/29093559_152853602208511_2508737887046991872_n.jpg" class="image fit thumb"><img src="images/gallery/Liverpool.jpg" alt="" /></a>
 		<title>St George's Hall Liverpool</title>
 		<h3>Liverpool, England</h3>
 	</article>
