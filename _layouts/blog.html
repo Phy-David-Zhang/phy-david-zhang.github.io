@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div id="main">
+  <article>
+    <header>
+      <!--
+      <h1 class="post-title">{{ page.title }}</h1>
+      -->
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <link rel="stylesheet" href="/css/blog.css">
+      <link rel="stylesheet" href="/css/list.css">
+    </header>
+
+    <div class="blog list">
+    <section class="blog" id="blog">
+      {{ content }}
+    </section>
+    </div>
+  </article>
+
+</div>
+
+  <!-- Scripts -->
+    <script src="js/gallery/jquery.min.js"></script>
+    <script src="js/gallery/jquery.poptrox.min.js"></script>
+    <script src="js/gallery/skel.min.js"></script>
+    <script src="js/gallery/util.js"></script>
+    <script src="js/gallery/main.js"></script>
+

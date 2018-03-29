@@ -5,7 +5,7 @@ layout: list
 # Exhibition of Works
 
 <div class="top">
-<p> This page shows all the works by Zhang Chang-kai, including completed and onging projects and reports. Comments are welcomed.</p>
+<p> This page shows all the works by Zhang Chang-kai, including completed and onging projects and reports. For non-academic news and posts, visit <a href="Blog">News & Posts</a>. Comments are welcomed.</p>
 </div>
 
 ## Featured Works
@@ -113,7 +113,7 @@ layout: list
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
     <span>
-    <a href="https://chx-zh.cc/assets/IntroGauge.pdf">
+    <a href="{{ site.url }}/assets/IntroGauge.pdf">
       <h3>Report on U(1) Gauge Field Theory</h3></a>
     <p style="font-size: 1em">This is a report given in an Electromagnatism seminar concerning the Electromagnatic interaction described by a U(1) Gauge Field Theory. This report provides a sketch to construct gauge theory from fibre bundle.</p>
     </span>
