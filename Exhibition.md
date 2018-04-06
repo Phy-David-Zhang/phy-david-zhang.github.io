@@ -114,6 +114,17 @@ layout: list
   </article>
   </div>
 
+  <!-- Measurement of Differential Cross Section of Compton Scattering -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+    <span>
+    <a href="https://dx.doi.org/10.13140/RG.2.2.30861.23526">
+      <h3>Measurement of Compton Cross Section</h3></a>
+    <p style="font-size: 1em">This is the lab report on the measurement of the differential cross section of Compton scattering. It is found that the Klein-Nishina formula provided by Quantum Electrodynamics fits accurately with the measurement result.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Report on Scientific Haskell -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
