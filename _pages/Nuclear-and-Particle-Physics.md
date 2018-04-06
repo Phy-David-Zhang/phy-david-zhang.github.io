@@ -7,7 +7,7 @@ permalink: /Nuclear-and-Particle-Physics/
 
 ### Introduction
 
-This is the lecture note for PHYS30201 Introduction to Nuclear and Particle Physics course at the University of Manchester. The notes include three parts. Part I introduces some basic concepts commonly used in both nuclear and particle physics. Part II focuses on the theory of fundamental interaction, including Electroweak theory and Quantum Chromodynamics. Part III includes several models and phenomenologies in nuclear physics.
+This is the lecture note for PHYS30121 Introduction to Nuclear and Particle Physics course at the University of Manchester. The notes include three parts. Part I introduces some basic concepts commonly used in both nuclear and particle physics. Part II focuses on the theory of fundamental interaction, including Electroweak theory and Quantum Chromodynamics. Part III includes several models and phenomenologies in nuclear physics.
 
 ### Documents
 

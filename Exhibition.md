@@ -74,7 +74,7 @@ layout: list
   <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
     <span>
     <a href="Nuclear-and-Particle-Physics"><h2>Nuclear and Particle Physics</h2></a>
-    <p style="font-size: 1em">This is a lecture note on PHYS30201 Introduction to Nuclear and Particle Physics at the University of Manchester.</p>
+    <p style="font-size: 1em">This is a lecture note on PHYS30121 Introduction to Nuclear and Particle Physics at the University of Manchester.</p>
     </span>
   </article>
   </div>
