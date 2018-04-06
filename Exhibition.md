@@ -103,6 +103,17 @@ layout: list
 
 <div class="row">
 
+  <!-- Quadratic Lagrangian and Spin-statistics Connection -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+    <span>
+    <a href="https://dx.doi.org/10.13140/RG.2.2.28302.87367">
+      <h3>Quadratic Lagrangian and Spin-statistics Connection</h3></a>
+    <p style="font-size: 1em">This article provides a derivation of spin-statistics connection from the quadratic form of Lagrangian. It is particularly useful when micro-causality is not available, e.g. in Quantum Gravity where spacetime background may be dynamical.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Report on Scientific Haskell -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
