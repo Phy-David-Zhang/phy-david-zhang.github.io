@@ -49,7 +49,7 @@ layout: list
 </div>
 
 
-## Ongoing Projects
+## Lecture Notes
 
 <div class="row">
 
@@ -66,7 +66,22 @@ layout: list
   </article>
   </div>
 
+<!-- Path Integral Project -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item">
+    <a href="Nuclear-and-Particle-Physics" class="image fit thumb"><img src="images/NucParPhys.png" alt="" /></a>
+  </article>
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
+    <span>
+    <a href="Nuclear-and-Particle-Physics"><h2>Nuclear and Particle Physics</h2></a>
+    <p style="font-size: 1em">This is a lecture note on PHYS30201 Introduction to Nuclear and Particle Physics at the University of Manchester.</p>
+    </span>
+  </article>
+  </div>
+
+
   <!-- Universal Mathematics System -->
+<!--
   <div class="row">
   <article class="6u 12u$(xsmall) work-item">
     <a href="Universal-Mathematics-System" class="image fit thumb"><img src="images/UnivMathSys.png" alt="" /></a>
@@ -78,6 +93,7 @@ layout: list
     </span>
   </article>
   </div>
+-->
 
 </div>
 
