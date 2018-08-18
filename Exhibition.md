@@ -107,7 +107,7 @@ layout: list
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
     <span>
-    <a href="https://dx.doi.org/10.13140/RG.2.2.35506.66249">
+    <a href="https://dx.doi.org/10.13140/RG.2.2.35506.66249/1">
       <h3>Algebraic and Analytical Structures in Physics</h3></a>
     <p style="font-size: 1em">This article studies the algebraic and analytical structures in Quantum Physics. We argued that it is the algebraic structure that provides the validity of a theory. This explains why Quantum Field Theory works without a mathematical basis.</p>
     </span>
