@@ -3290,43 +3290,43 @@
 /* Feedback Form and Address */
 
 	.feedback {
-		width: 63%;
+		width: 57%;
 	}
 
 	.address {
-		width: 37%;
+		width: 43%;
 	}
 
 	@media screen and (max-width: 1800px) {
 
 		.feedback {
-			width: 63%;
+			width: 57%;
 		}
 
 		.address {
-			width: 37%;
+			width: 43%;
 		}
 	}
 
 	@media screen and (max-width: 1280px) {
 
 		.feedback {
-			width: 63%;
+			width: 57%;
 		}
 
 		.address {
-			width: 37%;
+			width: 43%;
 		}
 	}
 
 	@media screen and (max-width: 980px) {
 
 		.feedback {
-			width: 63%;
+			width: 57%;
 		}
 
 		.address {
-			width: 37%;
+			width: 43%;
 		}
 	}
 
