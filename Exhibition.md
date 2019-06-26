@@ -103,6 +103,17 @@ layout: list
 
 <div class="row">
 
+  <!-- Talk on Magic-angle Twisted Bilayer Graphene -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+    <span>
+    <a href="{{ site.url }}/assets/tbg-talk.pdf">
+      <h3>Talk on Magic-angle Twisted Bilayer Graphene</h3></a>
+    <p style="font-size: 1em">This is a talk given in seminar <l>Modern Topics in Condensed Matter Physics</l> concerning the magic-angle twisted bilayer graphene together with the correlated insulator and unconventional superconductivity in this system.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Algebraic and Analytical Structures in Physics -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
