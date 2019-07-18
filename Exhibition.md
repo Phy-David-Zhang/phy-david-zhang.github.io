@@ -103,6 +103,17 @@ layout: list
 
 <div class="row">
 
+  <!-- Construction of Topological Quantum Computation -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+    <span>
+    <a href="{{ site.url }}/assets/tqc-fqh.pdf">
+      <h3>Construction of Topological Quantum Computation</h3></a>
+    <p style="font-size: 1em">This is a talk given in seminar <l>Topological Order and Anyons</l> concerning the fractional Hall effect and the construction of a universal set of topologically-protected quantum gates using ν=5/2 fractional quantum Hall state.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Talk on Magic-angle Twisted Bilayer Graphene -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
