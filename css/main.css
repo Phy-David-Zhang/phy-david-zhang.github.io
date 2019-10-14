@@ -1738,6 +1738,11 @@
 		font-size: 2em;
 	}
 
+	header.major h2.chn {
+		font-size: 1.75em;
+		margin-left: 0.05em;
+	}
+
 /* Form */
 
 	form {
@@ -3129,7 +3134,13 @@
 			}
 
 			header.major h2 {
-				font-size: 1.35em;
+				font-size: 1.5em;
+			}
+
+			header.major h2.chn {
+				font-size: 1.45em;
+				margin-left: 0.05em;
+				margin-top: 0.4em;
 			}
 
 		/* List */
