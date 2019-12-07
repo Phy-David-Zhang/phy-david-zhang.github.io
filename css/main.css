@@ -3109,6 +3109,12 @@
 						padding-left: 0.75em;
 					}
 
+					#footer .copyright li:first-child {
+						border-left: 0;
+						margin-left: 0;
+						padding-left: 0;
+					}
+
 		/* Main */
 
 			#main {
