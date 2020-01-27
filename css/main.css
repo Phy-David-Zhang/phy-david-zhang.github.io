@@ -907,6 +907,10 @@
 			margin: 15px 0 -1px -2em;
 		}
 
+		.row.first {
+			margin-bottom: 1.5em;
+		}
+
 		.row.uniform > * {
 			padding: 2em 0 0 2em;
 		}

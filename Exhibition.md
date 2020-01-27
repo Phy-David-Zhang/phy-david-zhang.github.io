@@ -10,7 +10,7 @@ layout: list
 
 ## Featured Works
 
-<div class="row">
+<div class="row first">
 
   <!-- Gauge Gravity Duality -->
   <div class="row">
