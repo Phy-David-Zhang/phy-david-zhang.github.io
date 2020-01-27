@@ -103,6 +103,17 @@ layout: list
 
 <div class="row">
 
+  <!-- Talk on Heavy Fermion Superconductivity -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+    <span>
+    <a href="{{ site.url }}/assets/hfs-talk.pdf">
+      <h3>Talk on Heavy Fermion Superconductivity</h3></a>
+    <p style="font-size: 1em">This is a talk given in seminar <l>High-Tc Superconductivity</l> concerning the emergence of strong correlated physics like unconventional superconductivity found in various heavy fermion materials created by Kondo lattice.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Construction of Topological Quantum Computation -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
