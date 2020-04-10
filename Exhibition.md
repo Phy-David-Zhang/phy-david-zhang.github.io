@@ -32,7 +32,7 @@ layout: list
   </article>
   <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
     <a href="Constructive-Physics"><h2>Constructive Physics</h2></a>
-    <p style="font-size: 1em">Constructive Physics Project, an attempt to place theoretical Physics under firm mathematical background.</p>
+    <p style="font-size: 1em">Constructive Physics Project, an attempt to construct gauge field theories under mathematical perspectives.</p>
   </article>
   </div>
 
