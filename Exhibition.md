@@ -8,7 +8,7 @@ layout: list
 <p> This page shows all the works by Zhang Chang-kai, including completed and onging projects and reports. For non-academic news and posts, visit <a href="Blog">News & Posts</a>. Comments are welcomed.</p>
 </div>
 
-## Featured Works
+## Degree Theses
 
 <div class="row first">
 
@@ -25,25 +25,14 @@ layout: list
   </article>
   </div>
 
-  <!-- Constructive Physics -->
+  <!-- Tensor Networks -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item">
-    <a href="Constructive-Physics" class="image fit thumb"><img src="images/ConsPhysPro.png" alt="" /></a>
+    <a href="Tensor-Networks" class="image fit thumb"><img src="images/iPEPS_Titlepage.png" alt="" /></a>
   </article>
-  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
-    <a href="Constructive-Physics"><h2>Constructive Physics</h2></a>
-    <p style="font-size: 1em">Constructive Physics Project, an attempt to construct gauge field theories under mathematical perspectives.</p>
-  </article>
-  </div>
-
-  <!-- Structure of Physics -->
-  <div class="row">
-  <article class="6u 12u$(xsmall) work-item">
-    <a href="Structure-of-Physics" class="image fit thumb"><img src="images/Structure_of_Physics.png" alt="" /></a>
-  </article>
-  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
-    <a href="Structure-of-Physics"><h2>Structure of Physics</h2></a>
-    <p style="font-size: 1em">This article elaborates the construction of fundamental theory of Physics based solely on requirements on self-consistency.</p>
+  <article class="6u 12u$(xsmall) illustration">
+    <a href="Tensor-Networks"><h2>Tensor Networks</h2></a>
+    <p style="font-size: 1em">Symmetric infinite Projected-Entangled Pair State (iPEPS) study of two-dimensional quantum lattice models.</p>
   </article>
   </div>
 </div>
@@ -96,6 +85,35 @@ layout: list
 -->
 
 </div>
+
+
+## Opinions & Thoughts
+
+<div class="row">
+
+  <!-- Constructive Physics -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item">
+    <a href="Constructive-Physics" class="image fit thumb"><img src="images/ConsPhysPro.png" alt="" /></a>
+  </article>
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
+    <a href="Constructive-Physics"><h2>Constructive Physics</h2></a>
+    <p style="font-size: 1em">Constructive Physics Project, an attempt to construct gauge field theories under mathematical perspectives.</p>
+  </article>
+  </div>
+
+  <!-- Structure of Physics -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item">
+    <a href="Structure-of-Physics" class="image fit thumb"><img src="images/Structure_of_Physics.png" alt="" /></a>
+  </article>
+  <article class="6u 12u$(xsmall) illustration" style="/* margin: 13px 0 */">
+    <a href="Structure-of-Physics"><h2>Structure of Physics</h2></a>
+    <p style="font-size: 1em">This article elaborates the construction of fundamental theory of Physics based solely on requirements on self-consistency.</p>
+  </article>
+  </div>
+</div>
+
 
 -----------------------------------
 

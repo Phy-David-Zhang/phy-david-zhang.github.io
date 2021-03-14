@@ -17,7 +17,3 @@ This version is released on November 7, 2017
 Notice: Copyright © 2017 Zhang Chang-kai. All rights reserved. This is a BSc thesis at the University of Manchester. 
 
 DOI: [10.13140/RG.2.2.26359.93603](http://dx.doi.org/10.13140/RG.2.2.26359.93603)
-
-### History Version
-
-*Temporarily not available*
