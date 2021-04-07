@@ -1,0 +1,35 @@
+- src: images/gallery/Amsterdam.jpg
+  date: 2017-06-22
+  name: Amsterdam, Netherlands
+  title: Van Gogh Museum
+  place: Amsterdam
+
+- src: images/gallery/Liverpool.jpg
+  date: 2016-11-09
+  name: Liverpool, England
+  title: St George's Hall Liverpool
+  place: Liverpool
+
+- src: images/gallery/London_1.jpg
+  date: 2017-01-26
+  name: London, England - 1st entry
+  title: British Museum
+  place: London_1
+
+- src: images/gallery/London_2.jpg
+  date: 2017-02-26
+  name: London, England - 2st entry
+  title: Tower Bridge
+  place: London_2
+
+- src: images/gallery/Leeds.jpg
+  date: 2017-03-11
+  name: Leeds, England
+  title: Leeds Town Hall
+  place: Leeds
+
+- src: images/gallery/Zaandam.jpg
+  date: 2017-06-23
+  name: Zaandam, Netherlands
+  title: Indie’s Welvaren Spice Warehouse
+  place: Zaandam
