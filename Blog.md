@@ -11,7 +11,17 @@ layout: blog
 ## Recent Posts
 
 <div class="row">
-<!-- Report on U(1) Gauge Field Theory -->
+<!-- The Common Bottleneck of Contemporary Physics -->
+<div class="list row">
+<article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+<span>
+<a href="{{ site.url }}/Bottleneck-Contemporary-Physics">
+  <h3>Bottleneck of Contemporary Physics</h3></a>
+<p style="font-size: 1em">This is a short essay on the bottleneck of contemporary physics. It is argued that well-renowned open questions in various areas in physics all originate from the lack of understanding towards the dynamics in the vicinity of an interaction.</p>
+</span>
+</article>
+</div>
+<!-- Two Kinds of Unification -->
 <div class="list row">
 <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
 <span>
@@ -21,7 +31,7 @@ layout: blog
 </span>
 </article>
 </div>
-<!-- Report on U(1) Gauge Field Theory -->
+<!-- My Road to a Final Theory -->
 <div class="list row">
 <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
 <span>
