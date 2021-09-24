@@ -32,10 +32,10 @@ plugins:
 
 # Jekyll SEO Tag
 webmaster_verifications:
-  google: # 1234
-  bing: # 1234
-  alexa: # 1234
-  yandex: # 1234
+  google: # anything
+  bing: # anything
+  alexa: # anything
+  yandex: # anything
 
 # -----------
 # CloudCannon
