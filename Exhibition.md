@@ -5,7 +5,7 @@ layout: list
 # Exhibition of Works
 
 <div class="top">
-<p> This page shows all the works by Zhang Chang-kai, including completed and onging projects and reports. For non-academic news and posts, visit <a href="Blog">News & Posts</a>. Comments are welcomed.</p>
+<p> This page shows all the academic works, including degree theses, lecture notes, opinions & thoughts, and other regular academic contributions. For recent news and posts, visit <a href="Blog">News & Posts</a>. Comments are welcomed.</p>
 </div>
 
 ## Degree Theses

@@ -5,18 +5,18 @@ layout: blog
 # News & Posts
 
 <div class="top">
-<p>This page shows the non-academic comments and selected travel records. For academic works, visit <a href="Exhibition">Exhibition</a>. Comments are welcomed.</p>
+<p>This page shows the non-academic news and posts, including innovative thoughts and arguments as well as selected travel records. For academic works, visit <a href="Exhibition">Exhibition</a>. Comments are welcomed.</p>
 </div>
 
 ## Recent Posts
 
 <div class="row">
-<!-- The Common Bottleneck of Contemporary Physics -->
+<!-- All Roads Lead to Rome -->
 <div class="list row">
 <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
 <span>
-<a href="{{ site.url }}/Bottleneck-Contemporary-Physics">
-  <h3>Bottleneck of Contemporary Physics</h3></a>
+<a href="{{ site.url }}/All-Roads-Lead-To-Rome">
+  <h3>All Roads Lead to Rome</h3></a>
 <p style="font-size: 1em">This is a short essay on the bottleneck of contemporary physics. It is argued that well-renowned open questions in various areas in physics all originate from the lack of understanding towards the dynamics in the vicinity of an interaction.</p>
 </span>
 </article>
