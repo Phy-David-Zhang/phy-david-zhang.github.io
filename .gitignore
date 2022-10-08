@@ -28,3 +28,6 @@ Temporary Items
 # Jekyll build files
 _site/
 .sass-cache/
+
+# Bundler settings
+.bundle
