@@ -29,3 +29,10 @@
 		margin: 1.5em 1.5em;
 		font-size: 1.15em
 	}
+
+	@media screen and (max-width: 736px) {
+
+		.list h3 {
+			font-size: 1.15em;
+		}
+	}
