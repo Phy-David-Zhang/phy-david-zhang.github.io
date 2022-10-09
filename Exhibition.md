@@ -10,7 +10,7 @@ layout: list
 
 ## Degree Theses
 
-<div class="row first">
+<div class="row former">
 
   <!-- Gauge Gravity Duality -->
   <div class="row">
@@ -40,7 +40,7 @@ layout: list
 
 ## Lecture Notes
 
-<div class="row">
+<div class="row former">
 
   <!-- Path Integral Project -->
   <div class="row">
