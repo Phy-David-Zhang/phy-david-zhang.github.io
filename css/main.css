@@ -2465,13 +2465,17 @@
 		}
 
 	.illustration {
-		margin: 2.6% 0;
+		margin: 2.1% 0;
 		max-width: 21.875em;
 	}
 
 		.illustration p {
 			margin: 0;
-			line-height: 1.5em;
+			line-height: 1.6em;
+		}
+
+		.illustration h2 {
+			margin-bottom: 0.1em;
 		}
 
 		.illustration span {
