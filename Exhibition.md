@@ -121,6 +121,17 @@ layout: list
 
 <div class="row">
 
+  <!-- Frustration Induced Superconductivity in the Hubbard Model -->
+  <div class="row">
+  <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
+    <span>
+    <a href="https://arxiv.org/abs/2307.14835">
+      <h3>Frustration & Superconductivity in the Hubbard Model</h3></a>
+    <p style="font-size: 1em">This research utilizes the infinite Projected Entangled-Pair State tensor network to investigate the frustration induced superconductivity in the electron- and hole-doped Hubbard model in the thermodynamic limit.</p>
+    </span>
+  </article>
+  </div>
+
   <!-- Talk on Heavy Fermion Superconductivity -->
   <div class="row">
   <article class="6u 12u$(xsmall) work-item" style="margin: 0 0 0 1.5em; width: 85%">
