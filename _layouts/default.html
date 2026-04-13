@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript">
-    	var host = "chx-zh.cc";
-    	if ((host == window.location.host) && (window.location.protocol != "https:"))
-        	window.location.protocol = "https";
-		</script>
 		<title>{{ site.title }}</title>
 		<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +11,8 @@
 
 		<link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
-		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 		<link rel="stylesheet" href="/css/main.css">
-		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 
 	<!--
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -75,7 +68,6 @@
 		<script src="/js/jquery.poptrox.min.js"></script>
 		<script src="/js/skel.min.js"></script>
 		<script src="/js/util.js"></script>
-		<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
 		<script src="/js/main.js"></script>
 
 		{% if jekyll.environment == 'production' and site.google_analytics != '' %}
