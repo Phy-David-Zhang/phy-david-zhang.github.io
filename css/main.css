@@ -2637,9 +2637,14 @@
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			font-size: 131.25% !important;
 			line-height: 1.75em;
 			margin: 0;
+		}
+
+		#header h3 {
+			color: rgba(255, 255, 255, 0.5) !important;
+			font-size: 112.5% !important;
 		}
 
 		#header .image.avatar {

@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>{{ site.title }}</title>
 		<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="{{ site.author.name }}">
-		<meta name="description" content="{{ site.description }}">
 		<meta http-equiv="content-language" content="{{ site.locale }}" />
-		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-
-		<link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3/dist/css/glightbox.min.css">
@@ -29,14 +25,13 @@
 	<body id="top">
     <header id="header">
       <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/profile.png" alt="{{ site.author.name }}"></a>
-      <h1 class="editable" style="font-size: 131.25%"><strong><a href="/">Zhang Chang-kai</a></strong></h1>
-      <h3 class="editable" style="color: rgba(255, 255, 255, 0.5); font-size: 112.5%">Theoretical physicist attempting to reveal final rules of the universe.</h3>
+      <h1 class="editable"><strong><a href="/">Zhang Chang-kai</a></strong></h1>
+      <h3 class="editable">Theoretical physicist attempting to reveal final rules of the universe.</h3>
     </header>
 
     {{ content }}
 
     <footer id="footer">
-      <p class="editor-link"><a href="cloudcannon:collections/_data/social.yml" class="button"><strong>&#9998;</strong> Update Social Icons</a></p>
       <ul class="icons">
         {% for account in site.data.social %}
 				<li>
@@ -59,7 +54,7 @@
       {% endif %}
       </ul>
       <ul class="copyright">
-          <li>&copy; 2021 Zhang Chang-kai</li>
+          <li>&copy; {{ site.time | date: '%Y' }} Zhang Chang-kai</li>
           <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           <li>Adapted: Zhang Chang-kai</li>
       </ul>
