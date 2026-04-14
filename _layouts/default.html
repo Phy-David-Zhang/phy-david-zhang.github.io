@@ -10,6 +10,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3/dist/css/glightbox.min.css">
 		<link rel="stylesheet" href="/css/main.css">
+		{% for css in layout.head_css %}
+		<link rel="stylesheet" href="{{ css }}">
+		{% endfor %}
 
 	<!--
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
