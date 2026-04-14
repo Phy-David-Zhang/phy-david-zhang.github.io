@@ -11,7 +11,7 @@
 
 		<link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3/dist/css/glightbox.min.css">
 		<link rel="stylesheet" href="/css/main.css">
 
@@ -39,24 +39,24 @@
       <p class="editor-link"><a href="cloudcannon:collections/_data/social.yml" class="button"><strong>&#9998;</strong> Update Social Icons</a></p>
       <ul class="icons">
         {% for account in site.data.social %}
-					<li>
-						<a {% if account.new_window %}{% endif %} href="{% include relative-src.html src=account.link %}" {% if account.social_icon %}class="icon fa-{{ account.social_icon | slugify }}" style="font-size: 1.125em"{% endif %}>
-              <span class="label">{{ account.name }}</span>
-						</a>
-					</li>
-				{% endfor %}
-				<li style="padding-right: 0.9em">
-						<a href="{{ site.url }}/assets/Resume.pdf" class="icon fa-snapchat" style="font-size: 1.15em">
-              <span class="label">Github</span>
-						</a>
-					</li>
-        {% if site.author.email %}
-        <li>
-          <a href="mailto:{{ site.author.email }}" class="icon fa-telegram" style="font-size: 1.0125em">
-            <span class="label">Email</span>
-          </a>
-        </li>
-        {% endif %}
+				<li>
+					<a {% if account.new_window %}{% endif %} href="{% include relative-src.html src=account.link %}" {% if account.social_icon %}class="icon fa-{{ account.social_icon | slugify }}" style="font-size: 1.125em"{% endif %}>
+            <span class="label">{{ account.name }}</span>
+					</a>
+				</li>
+			{% endfor %}
+			<li style="padding-right: 0.9em">
+					<a href="{{ site.url }}/assets/Resume.pdf" class="icon fa-snapchat" style="font-size: 1.15em">
+            <span class="label">Resume</span>
+					</a>
+				</li>
+      {% if site.author.email %}
+      <li>
+        <a href="mailto:{{ site.author.email }}" class="icon fa-telegram" style="font-size: 1.0125em">
+          <span class="label">Email</span>
+        </a>
+      </li>
+      {% endif %}
       </ul>
       <ul class="copyright">
           <li>&copy; 2021 Zhang Chang-kai</li>
