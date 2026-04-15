@@ -10,99 +10,80 @@ layout: default
               <h2>Striving for the stars, standing on the ground</h2>
               <h2 class="chn">仰 望 星 空，脚 踏 实 地</h2>
             </header>
-            <p style="margin-top: 2em">This is the main entrance of all works of <a href="About-My-Name" style="color: inherit;">Zhang Chang-kai</a>, including projects, articles and comments. My major devotion to physics concentrates on the theoretical and computational analysis of strongly correlated systems. As a growing physicist, most of my current accomplishments involve the refinements and philosophical insights towards well-established high energy and condensed matter theories.
-            <!--
-            For a long time, Zhang Chang-kai has been working on establishing logically self-complete physical theories. Motivated by this origin, he has accomplished skeletons from basic Mathematics towards classical gauge field theory, and is now working with hope to extend it into the quantum area.
-        	-->
+            <p class="intro">This is the main entrance of all works of <a href="About-My-Name">Zhang Chang-kai</a>, including projects, articles and comments. My major devotion to physics concentrates on the theoretical and computational analysis of strongly correlated systems. As a growing physicist, most of my current accomplishments involve the refinements and philosophical insights towards well-established high energy and condensed matter theories.
         	</p>
-            <h4 style="margin-bottom: 0.5em;">Research Interest</h4>
+            <h4>Research Interest</h4>
             <p>Recently, I am attracted by conducting theoretical and computational investigations via powerful tools including AdS/CFT correspondence and numerous tensor network algorithms in an attempt to resolve the mysteries in strongly correlated systems. Currently, I am working on the application of tensor networks to various quantum lattice models.</p>
-            <!--
-            <p>Recently, I am attracted by conducting theoretical investigations of various aspects of Quantum Field Theory, High Energy Physics, as well as candidates for a theory of Quantum Gravity. Currently, I am working on investigating consequences of the AdS/CFT correspondence as well as its implications on quantum information.</p>
-            -->
-            <!--
-            <ul class="actions">
-              <li><a href="#" class="button">Learn More</a></li>
-            </ul>
-            The mathematical backgrounds for General Relativity and Quantum Mechanics have been constructed ever since the early ages of these two theories. 
-            -->
           </section>
 
         <!-- Two -->
           <section id="two">
             <h2>Research Work</h2>
-            <div class="row">
+            <div class="work-rows">
               <div class="row">
-              <article class="6u 12u$(xsmall) work-item">
-                <a href="Gauge-Gravity-Duality" class="image fit thumb"><img src="images/Gauge_Gravity.png" alt="" /></a>
-              </article>
-              <article class="6u 12u$(xsmall) illustration">
-                <span>
-                <a href="Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
-                <p style="font-size: 1em">General review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
-                </span>
-              </article>
+                <article class="work-item">
+                  <a href="Gauge-Gravity-Duality" class="image fit thumb"><img src="images/Gauge_Gravity.png" alt="" /></a>
+                </article>
+                <div class="illustration">
+                  <a href="Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
+                  <p>General review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
+                </div>
               </div>
               <div class="row">
-              <article class="6u 12u$(xsmall) work-item">
-                <a href="Tensor-Networks" class="image fit thumb"><img src="images/iPEPS_Titlepage.png" alt="" /></a>
-              </article>
-              <article class="6u 12u$(xsmall) illustration">
-                <a href="Tensor-Networks"><h2>Tensor Networks</h2></a>
-                <p style="font-size: 1em">Symmetric infinite Projected-Entangled Pair State (iPEPS) study of two-dimensional quantum lattice models.</p>
-              </article>
+                <article class="work-item">
+                  <a href="Tensor-Networks" class="image fit thumb"><img src="images/iPEPS_Titlepage.png" alt="" /></a>
+                </article>
+                <div class="illustration">
+                  <a href="Tensor-Networks"><h2>Tensor Networks</h2></a>
+                  <p>Symmetric infinite Projected-Entangled Pair State (iPEPS) study of two-dimensional quantum lattice models.</p>
+                </div>
               </div>
               <div class="row">
-              <article class="6u 12u$(xsmall) work-item">
-                <a href="Structure-of-Physics" class="image fit thumb"><img src="images/Structure_of_Physics.png" alt="" /></a>
-              </article>
-              <article class="6u 12u$(xsmall) illustration">
-                <a href="Structure-of-Physics"><h2>Structure of Physics</h2></a>
-                <p style="font-size: 1em">This article elaborates the construction of fundamental theory of Physics based solely on requirements on self-consistency.</p>
-              </article>
+                <article class="work-item">
+                  <a href="Structure-of-Physics" class="image fit thumb"><img src="images/Structure_of_Physics.png" alt="" /></a>
+                </article>
+                <div class="illustration">
+                  <a href="Structure-of-Physics"><h2>Structure of Physics</h2></a>
+                  <p>This article elaborates the construction of fundamental theory of Physics based solely on requirements on self-consistency.</p>
+                </div>
               </div>
             </div>
-            <ul class="actions" style="margin-top: 1.3em">
+            <ul class="actions actions-spaced">
               <li><a href="Exhibition" class="button">View More</a></li>
             </ul>
           </section>
 
         <!-- Three -->
-          <section id="three" style="margin-top: 2em">
+          <section id="three">
             <h2>Get In Touch</h2>
             <p>Fill out your name, your preferred email address and your questions or comments in the following boxes, click submit and I will receive your message.</p>
             <div class="row">
-              <div class="8u 12u$(small) feedback">
-                <form method="post" action="https://formspree.io/f/xvodlyvn">
+              <div class="feedback">
+                <form method="post" action="https://formspree.io/f/{{ site.formspree_id }}">
                   <div class="row uniform 50%">
                     <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                     <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                     <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                   </div>
-                  <div style="margin-top: 1em">
+                  <div class="submit-row">
                     <ul class="actions">
                       <li><input type="submit" value="Send Message" /></li>
                     </ul>
                   </div>
                 </form>
               </div>
-              <div class="4u$ 12u$(small) address" style="margin: 0.3em 0;">
+              <div class="address">
                 <ul class="labeled-icons">
+                  {% for location in site.data.contact.locations %}
                   <li>
                     <h3 class="icon fa-podcast"><span class="label">Address</span></h3>
-                    Ludwig-Maximilian-Universität,<br />
-                    Geschwister-Scholl-Platz 1,<br />
-                    80539, Munich, Germany
+                    {{ location.name }},<br />
+                    {{ location.street }},<br />
+                    {{ location.zip }}, {{ location.city }}, {{ location.country }}
                   </li>
-                  <li>
-                    <h3 class="icon fa-podcast"><span class="label">Address</span></h3>
-                    Arnold Sommerfeld Center,<br />
-                    Theresienstraße 37,<br />
-                    80333, Munich, Germany
-                  </li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>
           </section>
       </div>
-      
