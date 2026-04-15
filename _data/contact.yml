@@ -1,0 +1,11 @@
+locations:
+  - name: Ludwig-Maximilian-Universität
+    street: Geschwister-Scholl-Platz 1
+    zip: "80539"
+    city: Munich
+    country: Germany
+  - name: Arnold Sommerfeld Center
+    street: Theresienstraße 37
+    zip: "80333"
+    city: Munich
+    country: Germany
