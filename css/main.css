@@ -2466,6 +2466,7 @@
 	.illustration {
 		margin: 2.1% 0;
 		max-width: 21.875em;
+		width: 50%; /* was supplied by 6u class; responsive overrides at 736px/480px still apply */
 	}
 
 		.illustration p {
@@ -3335,6 +3336,7 @@
 
 	.address {
 		width: 43%;
+		margin: 0.3em 0;
 	}
 
 	@media screen and (max-width: 1800px) {
@@ -3345,6 +3347,7 @@
 
 		.address {
 			width: 43%;
+			margin: 0.3em 0;
 		}
 	}
 
@@ -3391,6 +3394,35 @@
 			width: 100%;
 		}
 	}
+
+/* index.html — extracted inline styles */
+
+	#one p.intro { margin-top: 2em; }
+	#one p.intro a { color: inherit; }
+	#one h4 { margin-bottom: 0.5em; }
+	#three { margin-top: 2em !important; } /* inline style override: #main > section sets 4em */
+	.actions-spaced { margin-top: 1.3em; }
+	.submit-row { margin-top: 1em; }
+
+/* Research Work — block wrapper (inner .row divs handle the float layout) */
+
+	.work-rows {
+		padding-top: 0.5em; /* old outer .row had margin-top:0.5em; replicate that spacing */
+	}
+
+	.work-rows::after {
+		content: '';
+		display: block;
+		clear: both;
+		height: 0;
+	}
+
+	/* block siblings collapse margins (max not sum); old floated rows stacked 0.5em+0.5em=1em.
+	   Force 1em on each row after the first to restore the original inter-row gap. */
+	.work-rows .row + .row {
+		margin-top: 1em;
+	}
+
 
  /* CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/) */
 
