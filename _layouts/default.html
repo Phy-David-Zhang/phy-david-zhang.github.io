@@ -30,9 +30,9 @@
 
 	<body id="top">
     <header id="header">
-      <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/profile.png" alt="{{ site.author.name }}"></a>
-      <h1 class="editable"><strong><a href="/">Zhang Chang-kai</a></strong></h1>
-      <h3 class="editable">Theoretical physicist attempting to reveal final rules of the universe.</h3>
+      <a href="/" class="image avatar"><img src="/images/profile.png" alt="{{ site.author.name }}"></a>
+      <h1><strong><a href="/">Zhang Chang-kai</a></strong></h1>
+      <h3>Theoretical physicist attempting to reveal final rules of the universe.</h3>
     </header>
 
     {{ content }}
@@ -40,24 +40,24 @@
     <footer id="footer">
       <ul class="icons">
         {% for account in site.data.social %}
-				<li>
-					<a {% if account.new_window %}{% endif %} href="{% include relative-src.html src=account.link %}" {% if account.social_icon %}class="icon icon-social fa-{{ account.social_icon | slugify }}"{% endif %}>
+        <li>
+          <a href="{% include relative-src.html src=account.link %}"{% if account.new_window %} target="_blank" rel="noopener"{% endif %}{% if account.social_icon %} class="icon icon-social fa-{{ account.social_icon | slugify }}"{% endif %}>
             <span class="label">{{ account.name }}</span>
-					</a>
-				</li>
-			{% endfor %}
-			<li class="icon-resume-item">
-					<a href="{{ site.url }}/assets/Resume.pdf" class="icon icon-resume fa-snapchat">
+          </a>
+        </li>
+        {% endfor %}
+        <li class="icon-resume-item">
+          <a href="/assets/Resume.pdf" class="icon icon-resume fa-snapchat">
             <span class="label">Resume</span>
-					</a>
-				</li>
-      {% if site.author.email %}
-      <li>
-        <a href="mailto:{{ site.author.email }}" class="icon icon-email fa-telegram">
-          <span class="label">Email</span>
-        </a>
-      </li>
-      {% endif %}
+          </a>
+        </li>
+        {% if site.author.email %}
+        <li>
+          <a href="mailto:{{ site.author.email }}" class="icon icon-email fa-telegram">
+            <span class="label">Email</span>
+          </a>
+        </li>
+        {% endif %}
       </ul>
       <ul class="copyright">
           <li>&copy; {{ site.time | date: '%Y' }} Zhang Chang-kai</li>
