@@ -7,7 +7,7 @@ description: "Non-academic news and posts by Zhang Chang-kai, including thoughts
 # News & Posts
 
 <div class="top">
-<p>This page shows the non-academic news and posts, including innovative thoughts and arguments as well as selected travel records. For academic works, visit <a href="Exhibition">Exhibition</a>. Comments are welcomed.</p>
+<p>This page shows the non-academic news and posts, including innovative thoughts and arguments as well as selected travel records. For academic works, visit <a href="/Exhibition">Exhibition</a>. Comments are welcomed.</p>
 </div>
 
 ## Recent Posts
