@@ -1,6 +1,8 @@
 ---
 layout: post
 permalink: /Universal-Mathematics-System/
+title: "Universal Mathematics System"
+description: "Universal Mathematics System (UMS): an attempt to formulate abstract mathematical theories in a computer language so that their validation can be assisted by computers."
 ---
 
 ## Universal Maths System

@@ -1,6 +1,8 @@
 ---
 layout: post
 permalink: /Nuclear-and-Particle-Physics/
+title: "Nuclear and Particle Physics"
+description: "Lecture notes for PHYS30121 Introduction to Nuclear and Particle Physics at the University of Manchester, available as a Computable Document Format file and online."
 ---
 
 ## Nuclear & Particle Physics

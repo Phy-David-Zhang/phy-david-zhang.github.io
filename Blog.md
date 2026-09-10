@@ -1,5 +1,7 @@
 ---
 layout: blog
+title: "News & Posts"
+description: "Non-academic news and posts by Zhang Chang-kai, including thoughts and arguments as well as selected travel records."
 ---
 
 # News & Posts

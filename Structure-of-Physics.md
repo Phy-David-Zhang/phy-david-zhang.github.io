@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Structure of Physics"
+description: "How a fundamental theory of physics can be derived solely from mathematical requirements of self-consistency, placing all classical theories in one universal framework."
 ---
 
 ## Structure of Physics

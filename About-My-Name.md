@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "About My Name"
+description: "Why the name 张昌凯 is written Zhang Chang-kai: Chinese naming conventions, the family, generation and personal characters, and how to address the author."
 ---
 
 ## About My Name

@@ -1,5 +1,7 @@
 ---
 layout: list
+title: "Exhibition of Works"
+description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, opinions and thoughts, and regular academic contributions."
 ---
 
 # Exhibition of Works
