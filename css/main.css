@@ -2507,7 +2507,7 @@
 
 	.work-list {
 		margin: 1em 0 1em calc(-1 * var(--bleed));
-		padding-left: calc(var(--gutter) - var(--bleed)); /* the old list sat in a nested row; keeps its indent and line width */
+		padding: 0 0 0.5em calc(var(--gutter) - var(--bleed)); /* the old list sat in a nested row; keeps its indent and line width */
 	}
 
 	.work-list > article {
@@ -2569,6 +2569,7 @@
 
 		.work-list {
 			margin-top: 1.5em;
+			padding-bottom: 0;
 		}
 	}
 
