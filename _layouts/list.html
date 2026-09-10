@@ -4,12 +4,11 @@ head_css: [/css/list.css]
 ---
 <div id="main">
   <article>
+    {% if page.date %}
     <header>
-      <!--
-      <h1 class="post-title">{{ page.title }}</h1>
-      -->
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
+    {% endif %}
 
     <section class="list">
       {{ content }}

@@ -2734,6 +2734,15 @@
 				padding-top: 0;
 			}
 
+		/* Post/list/blog layouts: the article used to open with an always-present
+		   (usually empty) <header><p class="post-meta"> whose 1.5em bottom margin
+		   set the top spacing. The header is now rendered only when a date exists,
+		   so the same spacing is applied here directly. */
+		#main > article > section:first-child,
+		#main > article > .blog.list:first-child {
+			margin-top: 1.5em;
+		}
+
 /* Poptrox */
 
 	@-moz-keyframes spin {
