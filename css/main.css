@@ -436,11 +436,6 @@
 		opacity: 1.0;
 	}
 
-	.formerize-placeholder {
-		color: #b2b2b2 !important;
-		opacity: 1.0;
-	}
-
 /* Box */
 
 	.box {
@@ -1583,49 +1578,11 @@
 	}
 
 
-	/* CUSTOM CSS */
+/* Site-specific rules */
+
 	.button {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		background-color: transparent;
-		color: #787878 !important;
-		padding: 0 1.5em;
-		margin: 0 0 1.5em 0;
-		text-align: center;
-		white-space: nowrap;
-		border: solid 3px #efefef;
-		border-radius: 0.35em;
-		cursor: pointer;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		margin: 0 0 1.5em 0; /* only declaration not already set by the template .button above */
 	}
-
-	.spacer {
-		margin: 0.5em;
-		height: auto;
-	}
-
-	.recent-post {
-		margin: .2em 0 .2em 0;
-	}
-
-	#sidebar {
-		margin-top: 1.5em;
-	}
-
-	#sidebar ul li {
-		list-style: none;
-		font-size: 1.35em;
-		line-height: 1.5em;
-	}
-
-	#sidebar ul li a,
-	#sidebar ul li a a:visited {
-		color: #a2a2a2;
-		text-decoration: none;
-	}
-
- /**
-  * Custom
-	*/
 
 /* index.html — extracted inline styles */
 
@@ -1659,23 +1616,3 @@
 	@media screen and (max-width: 480px) {
 		.form-grid { grid-template-columns: 1fr; } /* matches Skel 12u$(xsmall) stacking */
 	}
-
- /* CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/) */
-
- 	.editor-link {
- 		display: none;
- 		margin-top: 0;
- 	}
-
- 	ul.actions li.editor-link {
- 		display: none;
- 		margin-top: 0;
- 	}
-
-	.cms-editor-active ul.actions li.editor-link {
-		display: inline-block;
-	}
-
- 	.cms-editor-active .editor-link {
- 		display: inline-block;
- 	}
