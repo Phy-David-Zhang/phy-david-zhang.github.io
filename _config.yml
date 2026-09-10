@@ -1,7 +1,6 @@
 locale: "en-US"
 title: "Dr. Zhang Chang-kai" # Title of your site
 url: https://chx-zh.cc # the base hostname & protocol for your site
-enforce_ssl: chx-zh.cc
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics: G-M5SYDEX6DJ
 formspree_id: xvodlyvn
@@ -28,26 +27,4 @@ include: ['_pages']
 plugins:
   - "jekyll-feed"
   - "jekyll-seo-tag"
-  - "jekyll-paginate"
   - "jekyll-sitemap"
-
-# Jekyll SEO Tag
-webmaster_verifications:
-  google: # anything
-  bing: # anything
-  alexa: # anything
-  yandex: # anything
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
