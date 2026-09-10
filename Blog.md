@@ -45,7 +45,7 @@ description: "Non-academic news and posts by Zhang Chang-kai, including thoughts
 {% assign gallery = site.data.gallery | sort: 'date' %}
 {% for image in gallery %}
   <article class="gallery-item">
-    <a href="{{ image.src }}" class="glightbox image fit thumb" data-gallery="{{ image.place }}" data-title="{{ image.title }}"><img src="{{ image.src }}" alt="{{ image.title }}" /></a>
+    <a href="{{ image.src }}" class="glightbox image fit thumb" data-gallery="{{ image.place }}" data-title="{{ image.title }}"><img src="{{ image.src }}" alt="{{ image.title }}" width="1080" height="667" loading="lazy" decoding="async" /></a>
     <h3>{{ image.name }}</h3>
   </article>
 {% assign galleries = site.data.galleries | where: "place", image.place %}

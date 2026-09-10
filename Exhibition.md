@@ -17,7 +17,7 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
   <!-- Gauge Gravity Duality -->
   <div class="work-row">
   <article class="work-item">
-    <a href="/Gauge-Gravity-Duality" class="image fit thumb"><img src="/images/Gauge_Gravity.png" alt="" /></a>
+    <a href="/Gauge-Gravity-Duality" class="image fit thumb"><img src="/images/Gauge_Gravity.png" alt="" width="1080" height="873" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
     <a href="/Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
@@ -28,7 +28,7 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
   <!-- Tensor Networks -->
   <div class="work-row">
   <article class="work-item">
-    <a href="/Tensor-Networks" class="image fit thumb"><img src="/images/iPEPS_Titlepage.png" alt="" /></a>
+    <a href="/Tensor-Networks" class="image fit thumb"><img src="/images/iPEPS_Titlepage.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
     <a href="/Tensor-Networks"><h2>Tensor Networks</h2></a>
@@ -45,7 +45,7 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
   <!-- Path Integral Project -->
   <div class="work-row">
   <article class="work-item">
-    <a href="/Path-Integral-Project" class="image fit thumb"><img src="/images/Path_Integral.png" alt="" /></a>
+    <a href="/Path-Integral-Project" class="image fit thumb"><img src="/images/Path_Integral.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
     <a href="/Path-Integral-Project"><h2>Path Integral Project</h2></a>
@@ -56,7 +56,7 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
   <!-- Nuclear and Particle Physics -->
   <div class="work-row">
   <article class="work-item">
-    <a href="/Nuclear-and-Particle-Physics" class="image fit thumb"><img src="/images/NucParPhys.png" alt="" /></a>
+    <a href="/Nuclear-and-Particle-Physics" class="image fit thumb"><img src="/images/NucParPhys.png" alt="" width="1080" height="872" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
     <a href="/Nuclear-and-Particle-Physics"><h2>Nuclear and Particle Physics</h2></a>
@@ -69,7 +69,7 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
 <!--
   <div class="work-row">
   <article class="work-item">
-    <a href="/Universal-Mathematics-System" class="image fit thumb"><img src="/images/UnivMathSys.png" alt="" /></a>
+    <a href="/Universal-Mathematics-System" class="image fit thumb"><img src="/images/UnivMathSys.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
     <a href="/Universal-Mathematics-System"><h2>Universal Maths System</h2></a>
@@ -88,7 +88,7 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
   <!-- Constructive Physics -->
   <div class="work-row">
   <article class="work-item">
-    <a href="/Constructive-Physics" class="image fit thumb"><img src="/images/ConsPhysPro.png" alt="" /></a>
+    <a href="/Constructive-Physics" class="image fit thumb"><img src="/images/ConsPhysPro.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
     <a href="/Constructive-Physics"><h2>Constructive Physics</h2></a>
@@ -99,7 +99,7 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
   <!-- Structure of Physics -->
   <div class="work-row">
   <article class="work-item">
-    <a href="/Structure-of-Physics" class="image fit thumb"><img src="/images/Structure_of_Physics.png" alt="" /></a>
+    <a href="/Structure-of-Physics" class="image fit thumb"><img src="/images/Structure_of_Physics.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
     <a href="/Structure-of-Physics"><h2>Structure of Physics</h2></a>
