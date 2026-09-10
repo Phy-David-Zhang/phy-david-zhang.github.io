@@ -40,7 +40,7 @@
     var blogSection = document.getElementById('blog');
     if (blogSection) {
       GLightbox({
-        selector: '#blog .work-item a.image',
+        selector: '#blog a.glightbox',
         touchNavigation: true,
         loop: true,
       });

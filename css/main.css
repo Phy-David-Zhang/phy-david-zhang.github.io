@@ -2464,8 +2464,9 @@
 		margin-bottom: 0.1em;
 	}
 
-/* Work layout: .work-group/.work-row (thumbnail + description), .work-list (title + description)
-   and .contact-grid (form + address). Replaces the Skel .row / 6u / 12u$(xsmall) float grid with CSS Grid.
+/* Work layout: .work-group/.work-row (thumbnail + description), .work-list (title + description),
+   .contact-grid (form + address) and .gallery-grid (travel gallery covers).
+   Replaces the Skel .row / 6u / 12u$(xsmall) float grid with CSS Grid.
    Geometry is kept identical to the old float layout: a row bleeds into the
    left margin by --bleed, and every cell carries a left gutter of --gutter. */
 
@@ -2544,6 +2545,31 @@
 		margin: 0.3em 0;
 	}
 
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: 1.2em 1.5em 0.5em -0.5em;
+	}
+
+	.gallery-grid > * {
+		min-width: 0;
+		padding-left: var(--gutter);
+	}
+
+	.gallery-item {
+		margin: 0 0 1em 0;
+	}
+
+	.gallery-item .image {
+		margin: 0;
+	}
+
+	.gallery-grid .gallery-item h3 { /* outranks .list h3 in list.css, which loads after this file */
+		font-size: 1.1em;
+		margin: 0.5em 0 0 0;
+		text-align: center;
+	}
+
 	@media screen and (max-width: 1280px) {
 
 		:root {
@@ -2607,6 +2633,10 @@
 
 		.work-row > .illustration {
 			width: 80%;
+		}
+
+		.gallery-grid {
+			grid-template-columns: 1fr;
 		}
 	}
 

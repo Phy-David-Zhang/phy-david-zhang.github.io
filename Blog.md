@@ -39,27 +39,18 @@ layout: blog
 
 ## Travel Records
 
-<div class="blog row">
-
+<div class="gallery-grid">
 {% assign gallery = site.data.gallery | sort: 'date' %}
-
-	{% for image in gallery %}
-	<article class="6u 12u$(xsmall) blog work-item">
-		<a href="{{image.src}}" class="image fit thumb"><img src="{{image.src}}" alt="" /></a>
-		<title>{{image.title}}</title>
-		<h3>{{image.name}}</h3>
-	</article>
-
-	{% assign galleries = site.data.galleries | where: "place", image.place %}
-
-		{% for images in galleries %}
-		<article class="6u 12u$(xsmall) blog work-item" style="display: none;">
-			<a href="{{images.src}}" class="image fit thumb"><img src="images/bg.jpg" alt="" /></a><title>{{images.title}}</title>
-		</article>
-		{% endfor %}
-
-	{% endfor %}
-
+{% for image in gallery %}
+  <article class="gallery-item">
+    <a href="{{ image.src }}" class="glightbox image fit thumb" data-gallery="{{ image.place }}" data-title="{{ image.title }}"><img src="{{ image.src }}" alt="{{ image.title }}" /></a>
+    <h3>{{ image.name }}</h3>
+  </article>
+{% assign galleries = site.data.galleries | where: "place", image.place %}
+{% for photo in galleries %}
+  <a href="{{ photo.src }}" class="glightbox" data-gallery="{{ image.place }}" data-title="{{ photo.title }}" hidden></a>
+{% endfor %}
+{% endfor %}
 </div>
 <!--
 <ul class="actions">
