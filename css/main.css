@@ -2670,6 +2670,23 @@
 				color: rgba(255, 255, 255, 0.4);
 			}
 
+			/* Per-icon optical size tuning (formerly inline styles in default.html) */
+			#footer .icons .icon-social {
+				font-size: 1.125em;
+			}
+
+			#footer .icons .icon-resume {
+				font-size: 1.15em;
+			}
+
+			#footer .icons .icon-email {
+				font-size: 1.0125em;
+			}
+
+			#footer .icons li.icon-resume-item {
+				padding-right: 0.9em;
+			}
+
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.4);
 			font-size: 0.8em;

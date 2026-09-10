@@ -41,19 +41,19 @@
       <ul class="icons">
         {% for account in site.data.social %}
 				<li>
-					<a {% if account.new_window %}{% endif %} href="{% include relative-src.html src=account.link %}" {% if account.social_icon %}class="icon fa-{{ account.social_icon | slugify }}" style="font-size: 1.125em"{% endif %}>
+					<a {% if account.new_window %}{% endif %} href="{% include relative-src.html src=account.link %}" {% if account.social_icon %}class="icon icon-social fa-{{ account.social_icon | slugify }}"{% endif %}>
             <span class="label">{{ account.name }}</span>
 					</a>
 				</li>
 			{% endfor %}
-			<li style="padding-right: 0.9em">
-					<a href="{{ site.url }}/assets/Resume.pdf" class="icon fa-snapchat" style="font-size: 1.15em">
+			<li class="icon-resume-item">
+					<a href="{{ site.url }}/assets/Resume.pdf" class="icon icon-resume fa-snapchat">
             <span class="label">Resume</span>
 					</a>
 				</li>
       {% if site.author.email %}
       <li>
-        <a href="mailto:{{ site.author.email }}" class="icon fa-telegram" style="font-size: 1.0125em">
+        <a href="mailto:{{ site.author.email }}" class="icon icon-email fa-telegram">
           <span class="label">Email</span>
         </a>
       </li>
