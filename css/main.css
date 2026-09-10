@@ -2440,171 +2440,173 @@
 
 /* Work Item */
 
-	.work-item {
+	.work-item .image {
+		margin: 0;
+	}
+
+	.work-item h3 {
+		font-size: 1em;
 		margin: 0 0 0.5em 0;
-		width: 30%;
 	}
 
-		.work-item .image {
-			/* margin: 0 0 1.5em 0; */
-			margin: 0;
-		}
+	.work-item p {
+		font-size: 0.8em;
+		line-height: 1.5em;
+		margin: 0;
+	}
 
-		.work-item h3 {
-			font-size: 1em;
-			margin: 0 0 0.5em 0;
-		}
+	.illustration p {
+		margin: 0;
+		line-height: 1.6em;
+	}
 
-		.work-item p {
-			font-size: 0.8em;
-			line-height: 1.5em;
-			margin: 0;
-		}
+	.illustration h2 {
+		margin-bottom: 0.1em;
+	}
 
-	.illustration {
-		margin: 2.1% 0;
+/* Work layout: .work-group/.work-row (thumbnail + description), .work-list (title + description)
+   and .contact-grid (form + address). Replaces the Skel .row / 6u / 12u$(xsmall) float grid with CSS Grid.
+   Geometry is kept identical to the old float layout: a row bleeds into the
+   left margin by --bleed, and every cell carries a left gutter of --gutter. */
+
+	:root {
+		--gutter: 2.5em;
+		--bleed: 2em;
+		--thumb-indent: 0em;
+	}
+
+	.work-group {
+		margin: 1em 0 0.5em;
+		padding-bottom: 0.5em;
+	}
+
+	.work-row {
+		display: grid;
+		grid-template-columns: calc(30% + var(--thumb-indent)) 50%;
+		align-items: start;
+		margin-left: calc(-1 * var(--bleed));
+	}
+
+	.work-row + .work-row {
+		margin-top: 1em;
+	}
+
+	.work-row > * {
+		min-width: 0;
+		padding-left: var(--gutter);
+	}
+
+	.work-row > .work-item {
+		margin: 0 0 0.5em var(--thumb-indent);
+	}
+
+	.work-row > .illustration {
 		max-width: 21.875em;
-		width: 50%; /* was supplied by 6u class; responsive overrides at 736px/480px still apply */
+		margin: 4.2% 0; /* 4.2% of the half-width grid area = 2.1% of the row, as before */
 	}
 
-		.illustration p {
-			margin: 0;
-			line-height: 1.6em;
-		}
+	.work-list {
+		margin: 1em 0 1em calc(-1 * var(--bleed));
+		padding-left: calc(var(--gutter) - var(--bleed)); /* the old list sat in a nested row; keeps its indent and line width */
+	}
 
-		.illustration h2 {
-			margin-bottom: 0.1em;
-		}
+	.work-list > article {
+		width: 85%;
+		margin: 0 0 0 1.5em;
+		padding-left: var(--gutter);
+	}
 
-		.illustration span {
-			vertical-align: middle;
-		}
+	.work-list > article + article {
+		margin-top: 1em;
+	}
 
-	@media screen and (max-width: 1800px) {
+	.work-list p {
+		font-size: 1em;
+	}
 
-		.work-item {
-			margin: 0 0 0.5em 0;
-			width: 30%;
-		}
+	.work-list cite {
+		font-style: normal; /* seminar titles were plain text in the old markup */
+	}
 
-			.work-item .image {
-				margin: 0;
-			}
+	.contact-grid {
+		display: grid;
+		grid-template-columns: 57fr 43fr;
+		align-items: start;
+		margin-left: calc(-1 * var(--bleed));
+	}
 
-			.work-item h3 {
-				font-size: 1em;
-				margin: 0 0 0.5em 0;
-			}
+	.contact-grid > * {
+		min-width: 0;
+		padding-left: var(--gutter);
+	}
 
-			.work-item p {
-				font-size: 0.8em;
-				line-height: 1.5em;
-				margin: 0;
-			}
+	.contact-grid > .address {
+		margin: 0.3em 0;
 	}
 
 	@media screen and (max-width: 1280px) {
 
-		.work-item {
-			margin: 0.5em 0 0.5em 1.5em;
-			width: 30%;
+		:root {
+			--gutter: 2em;
+			--thumb-indent: 1.5em;
 		}
 
-			.work-item .image {
-				margin: 0;
-			}
-
-			.work-item h3 {
-				font-size: 1em;
-				margin: 0 0 0.5em 0;
-			}
-
-			.work-item p {
-				font-size: 0.8em;
-				line-height: 1.5em;
-				margin: 0;
-			}
+		.work-row > .work-item {
+			margin-top: 0.5em;
+		}
 	}
 
 	@media screen and (max-width: 980px) {
 
-		.work-item {
-			margin: 0 0 0.5em 1.5em;
-			width: 30%;
+		.work-row > .work-item {
+			margin-top: 0;
 		}
 
-			.work-item .image {
-				margin: 0;
-			}
+		.work-group {
+			margin: 1.5em 0 1.25em;
+			padding-bottom: 0;
+		}
 
-			.work-item h3 {
-				font-size: 1em;
-				margin: 0 0 0.5em 0;
-			}
-
-			.work-item p {
-				font-size: 0.8em;
-				line-height: 1.5em;
-				margin: 0;
-			}
+		.work-list {
+			margin-top: 1.5em;
+		}
 	}
 
 	@media screen and (max-width: 736px) {
 
-		.work-item {
-			margin: 0 0 0.5em 1.5em;
+		:root {
+			--gutter: 1.5em;
+			--bleed: 1em;
+		}
+
+		.work-row {
+			grid-template-columns: 1fr;
+		}
+
+		.work-row > .work-item {
 			width: 80%;
 		}
 
-			.work-item .image {
-				margin: 0;
-			}
+		.work-row > .illustration {
+			width: 70%;
+			max-width: 320px;
+			margin: 13px 2em;
+		}
 
-			.work-item h3 {
-				font-size: 1em;
-				margin: 0 0 0.5em 0;
-			}
-
-			.work-item p {
-				font-size: 0.8em;
-				line-height: 1.5em;
-				margin: 0;
-			}
-
-			.illustration {
-				margin: 13px 2em;
-				max-width: 320px;
-				width: 70%
-			}
+		.contact-grid {
+			grid-template-columns: 1fr;
+		}
 	}
 
 	@media screen and (max-width: 480px) {
 
-		.work-item {
-			margin: 0 0 0.5em 1.5em;
-			width: 80%;
+		:root {
+			--bleed: 1.5em;
 		}
 
-			.work-item .image {
-				margin: 0;
-			}
-
-			.work-item h3 {
-				font-size: 1em;
-				margin: 0 0 0.5em 0;
-			}
-
-			.work-item p {
-				font-size: 0.8em;
-				line-height: 1.5em;
-				margin: 0;
-			}
-
-			.illustration {
-				margin: 13px 2em;
-				max-width: 320px;
-				width: 80%
-			}
+		.work-row > .illustration {
+			width: 80%;
+		}
 	}
 
 /* Header */
@@ -3352,73 +3354,6 @@
   * Custom
 	*/
 
-/* Feedback Form and Address */
-
-	.feedback {
-		width: 57%;
-	}
-
-	.address {
-		width: 43%;
-		margin: 0.3em 0;
-	}
-
-	@media screen and (max-width: 1800px) {
-
-		.feedback {
-			width: 57%;
-		}
-
-		.address {
-			width: 43%;
-			margin: 0.3em 0;
-		}
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		.feedback {
-			width: 57%;
-		}
-
-		.address {
-			width: 43%;
-		}
-	}
-
-	@media screen and (max-width: 980px) {
-
-		.feedback {
-			width: 57%;
-		}
-
-		.address {
-			width: 43%;
-		}
-	}
-
-	@media screen and (max-width: 736px) {
-
-		.feedback {
-			width: 100%;
-		}
-
-		.address {
-			width: 100%;
-		}
-	}
-
-	@media screen and (max-width: 480px) {
-
-		.feedback {
-			width: 100%;
-		}
-
-		.address {
-			width: 100%;
-		}
-	}
-
 /* index.html — extracted inline styles */
 
 	#one p.intro { margin-top: 2em; }
@@ -3451,26 +3386,6 @@
 	@media screen and (max-width: 480px) {
 		.form-grid { grid-template-columns: 1fr; } /* matches Skel 12u$(xsmall) stacking */
 	}
-
-/* Research Work — block wrapper (inner .row divs handle the float layout) */
-
-	.work-rows {
-		padding-top: 0.5em; /* old outer .row had margin-top:0.5em; replicate that spacing */
-	}
-
-	.work-rows::after {
-		content: '';
-		display: block;
-		clear: both;
-		height: 0;
-	}
-
-	/* block siblings collapse margins (max not sum); old floated rows stacked 0.5em+0.5em=1em.
-	   Force 1em on each row after the first to restore the original inter-row gap. */
-	.work-rows .row + .row {
-		margin-top: 1em;
-	}
-
 
  /* CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/) */
 
