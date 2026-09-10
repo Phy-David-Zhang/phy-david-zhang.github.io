@@ -1,5 +1,5 @@
 locale: "en-US"
-title: "Main Entrance" # Title of your site
+title: "Dr. Zhang Chang-kai" # Title of your site
 url: https://chx-zh.cc # the base hostname & protocol for your site
 enforce_ssl: chx-zh.cc
 baseurl: "" # the subpath of your site, e.g. /blog/

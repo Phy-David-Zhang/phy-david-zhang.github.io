@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>{{ site.title }}</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="{{ site.author.name }}">
@@ -18,7 +17,8 @@
 
 		<link rel="icon" type="image/png" href="/images/favicon.png">
 
-		{% seo %}
+		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+		{% seo title=false %}
 		{% feed_meta %}
 	</head>
 
