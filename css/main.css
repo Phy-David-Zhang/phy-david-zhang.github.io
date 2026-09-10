@@ -42,8 +42,6 @@
 /* Box Model */
 
 	*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 
@@ -54,13 +52,7 @@
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
 			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
 			transition: none !important;
 		}
 
@@ -73,9 +65,6 @@
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #49bf9d;
@@ -251,9 +240,7 @@
 	input[type="email"],
 	select,
 	textarea {
-		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
 		appearance: none;
 		background: #f7f7f7;
 		border-radius: 0.35em;
@@ -295,9 +282,7 @@
 
 	input[type="checkbox"],
 	input[type="radio"] {
-		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
 		appearance: none;
 		display: block;
 		float: left;
@@ -367,22 +352,7 @@
 		border-radius: 100%;
 	}
 
-	::-webkit-input-placeholder {
-		color: #b2b2b2 !important;
-		opacity: 1.0;
-	}
-
-	:-moz-placeholder {
-		color: #b2b2b2 !important;
-		opacity: 1.0;
-	}
-
-	::-moz-placeholder {
-		color: #b2b2b2 !important;
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
+	::placeholder {
 		color: #b2b2b2 !important;
 		opacity: 1.0;
 	}
@@ -418,9 +388,6 @@
 	}
 
 		.image:before {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
 			border-radius: 0.35em;
@@ -439,9 +406,6 @@
 		}
 
 			.image.thumb:after {
-				-moz-transition: opacity 0.2s ease-in-out;
-				-webkit-transition: opacity 0.2s ease-in-out;
-				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
@@ -632,13 +596,8 @@
 	input[type="reset"],
 	input[type="button"],
 	.button {
-		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
