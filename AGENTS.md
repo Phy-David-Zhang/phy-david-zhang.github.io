@@ -23,7 +23,7 @@ Jekyll 4 site of Dr. Zhang Chang-kai (chx-zh.cc): the academic gateway, leading 
 - Internal links and images are root-relative (`/Exhibition`, `/images/x.png`); downloadable assets use `{{ '/assets/x.pdf' | relative_url }}`. No `{{ site.url }}` in new links.
 - Thumbnails and gallery covers carry `width`/`height`, `loading="lazy"`, `decoding="async"`; the avatar stays eager. `.image img` has `height: auto`, so the attributes only reserve the aspect ratio.
 - Images: research title-page thumbnails are 1080 px wide 8-bit PNGs (2x their largest rendered width). Travel photos in `images/gallery/` and `images/galleries/` are shown full size in the lightbox: never resize or recompress them. Never rename or delete files under `images/` or `assets/`; they may be linked from outside the site.
-- The footer and address icons (`github`, `snapchat` for Resume, `telegram` for Email, `podcast` for Address) are deliberate choices. Change the delivery mechanism if needed, never the glyphs.
+- The footer and address icons (`github`, `snapchat` for Resume, `telegram` for Email, `podcast` for Address) are deliberate choices. They are inline SVGs of the Font Awesome 4.7 glyphs in `_includes/icon.html` (`{% include icon.html name="github" %}`, sized by `.svg-icon` in `css/main.css`); no icon font is loaded. Change the delivery mechanism if needed, never the glyphs.
 - Markup uses semantic classes and CSS rules; no inline `style` attributes, no Skel grid classes (`row`, `6u`, `12u$`), no jQuery.
 - Delete code only after grep-verifying it is unused across layouts, pages, data and JS (excluding `_site/` and `.jekyll-cache/`).
 
