@@ -14,25 +14,36 @@ description: "Academic works of Zhang Chang-kai: degree theses, lecture notes, o
 
 <div class="work-group">
 
-  <!-- Gauge Gravity Duality -->
+  <!-- Doctoral Thesis -->
   <div class="work-row">
   <article class="work-item">
-    <a href="/Gauge-Gravity-Duality" class="image fit thumb"><img src="/images/Gauge_Gravity.png" alt="" width="1080" height="873" loading="lazy" decoding="async" /></a>
+    <a href="/Doctoral-Thesis" class="image fit thumb"><img src="/images/Doctoral_Thesis.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
-    <a href="/Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
-    <p>General review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
+    <a href="/Doctoral-Thesis"><h2>Doctoral Thesis</h2></a>
+    <p>Tensor network methods and artificial intelligence study of the two-dimensional Hubbard model at zero and finite temperature.</p>
   </article>
   </div>
 
-  <!-- Tensor Networks -->
+  <!-- Master Thesis -->
   <div class="work-row">
   <article class="work-item">
     <a href="/Tensor-Networks" class="image fit thumb"><img src="/images/iPEPS_Titlepage.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
   </article>
   <article class="illustration">
-    <a href="/Tensor-Networks"><h2>Tensor Networks</h2></a>
+    <a href="/Tensor-Networks"><h2>Master Thesis</h2></a>
     <p>Symmetric infinite Projected-Entangled Pair State (iPEPS) study of two-dimensional quantum lattice models.</p>
+  </article>
+  </div>
+
+  <!-- Bachelor Thesis -->
+  <div class="work-row">
+  <article class="work-item">
+    <a href="/Gauge-Gravity-Duality" class="image fit thumb"><img src="/images/Gauge_Gravity.png" alt="" width="1080" height="873" loading="lazy" decoding="async" /></a>
+  </article>
+  <article class="illustration">
+    <a href="/Gauge-Gravity-Duality"><h2>Bachelor Thesis</h2></a>
+    <p>General review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
   </article>
   </div>
 </div>
