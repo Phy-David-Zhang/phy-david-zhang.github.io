@@ -23,6 +23,7 @@ social:
 
 permalink: /:title
 include: ['_pages']
+exclude: ['README.md', 'AGENTS.md']
 
 plugins:
   - "jekyll-feed"
