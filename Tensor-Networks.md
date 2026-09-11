@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Tensor Networks"
+title: "Master Thesis"
 description: "MSc thesis on symmetric infinite Projected Entangled-Pair State (iPEPS) algorithms for two-dimensional quantum lattice models, including the Heisenberg, free-fermion and Hubbard models."
 ---
 
-## Tensor Networks
+## Master Thesis
 
 ### Introduction
 
@@ -16,7 +16,7 @@ The quantum lattice models studied in this thesis include the Heisenberg model, 
 
 ### Document
 
-This document can be accessed here: [Tensor Networks]({{ site.url }}/assets/iPEPS_QLM.pdf)
+This document can be accessed here: [Master Thesis]({{ site.url }}/assets/iPEPS_QLM.pdf)
 
 This version is released on March 12, 2021
 

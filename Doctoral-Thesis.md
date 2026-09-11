@@ -4,7 +4,7 @@ title: "Doctoral Thesis"
 description: "PhD thesis on tensor network methods and artificial intelligence study of the two-dimensional Hubbard model: zero- and finite-temperature iPEPS and XTRG simulations and an optimized encoder-only transformer analysis of snapshots."
 ---
 
-## Tensor Network Methods and Artificial Intelligence Study of the Hubbard Model
+## Doctoral Thesis
 
 ### Introduction
 
@@ -18,7 +18,7 @@ In this thesis, we assemble an all-inclusive numerical toolchain for analyzing s
 
 ### Document
 
-This document can be accessed here: [Tensor Network Methods and Artificial Intelligence Study of the Hubbard Model]({{ '/assets/doctoral_thesis.pdf' | relative_url }})
+This document can be accessed here: [Doctoral Thesis]({{ '/assets/doctoral_thesis.pdf' | relative_url }})
 
 This thesis was submitted on November 11, 2025 and defended on December 17, 2025
 

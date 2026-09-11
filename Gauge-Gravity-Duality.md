@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Gauge Gravity Duality"
+title: "Bachelor Thesis"
 description: "A review of the AdS/CFT correspondence (gauge/gravity duality) and its application to computing holographic entanglement entropy."
 ---
 
-## Gauge Gravity Duality
+## Bachelor Thesis
 
 ### Introduction
 
@@ -12,7 +12,7 @@ This is a review of the well-renowned AdS/CFT correspondence, or Gauge/Gravity d
 
 ### Document
 
-This document can be accessed here: [Gauge Gravity Duality]({{ site.url }}/assets/Gauge%20Gravity%20Duality%20-%2020171107.pdf)
+This document can be accessed here: [Bachelor Thesis]({{ site.url }}/assets/Gauge%20Gravity%20Duality%20-%2020171107.pdf)
 
 This version is released on November 7, 2017
 
