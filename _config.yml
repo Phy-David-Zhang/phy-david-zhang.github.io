@@ -1,13 +1,13 @@
 locale: "en-US"
-title: "Main Entrance" # Title of your site
+title: "Dr. Zhang Chang-kai" # Title of your site
 url: https://chx-zh.cc # the base hostname & protocol for your site
-enforce_ssl: chx-zh.cc
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics: G-M5SYDEX6DJ
+formspree_id: xvodlyvn
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
-  Personal Webpage for Zhang Chang-kai
+  Academic gateway of Dr. Zhang Chang-kai
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -17,36 +17,15 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Main Entrance
+  name: Dr. Zhang Chang-kai
   links:
     - https://github.com/Phy-David-Zhang
 
 permalink: /:title
 include: ['_pages']
+exclude: ['README.md', 'AGENTS.md']
 
 plugins:
   - "jekyll-feed"
   - "jekyll-seo-tag"
-  - "jekyll-paginate"
   - "jekyll-sitemap"
-
-# Jekyll SEO Tag
-webmaster_verifications:
-  google: # anything
-  bing: # anything
-  alexa: # anything
-  yandex: # anything
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS

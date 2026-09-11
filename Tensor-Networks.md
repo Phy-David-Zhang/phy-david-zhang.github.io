@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Tensor Networks"
+description: "MSc thesis on symmetric infinite Projected Entangled-Pair State (iPEPS) algorithms for two-dimensional quantum lattice models, including the Heisenberg, free-fermion and Hubbard models."
 ---
 
 ## Tensor Networks

@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Gauge Gravity Duality"
+description: "A review of the AdS/CFT correspondence (gauge/gravity duality) and its application to computing holographic entanglement entropy."
 ---
 
 ## Gauge Gravity Duality

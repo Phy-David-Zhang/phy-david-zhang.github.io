@@ -1,6 +1,8 @@
 ---
 layout: post
 permalink: /Path-Integral-Project/
+title: "Path Integral Project"
+description: "A didactic, self-contained introduction to Quantum Field Theory in the path integral formalism, written for undergraduates and hosted on Read the Docs."
 ---
 
 ## Path Integral Project

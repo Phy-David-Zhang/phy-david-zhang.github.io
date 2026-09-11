@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Constructive Physics"
+description: "Constructive Physics: an attempt to construct physical theories, starting from classical gauge field theory, in a logically self-complete analytical formulation."
 ---
 
 
