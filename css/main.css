@@ -134,7 +134,11 @@
 	sub {
 		font-size: 0.8em;
 		position: relative;
-		top: 0.5em;
+		top: 0.25em; /* the template's 0.5em sat far too low for e.g. high-Tc */
+	}
+
+	sub.tight {
+		margin-left: -0.15em; /* tucks the subscript under an overhanging letter such as an italic T */
 	}
 
 	sup {
