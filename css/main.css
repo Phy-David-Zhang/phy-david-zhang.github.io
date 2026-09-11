@@ -681,6 +681,11 @@
 		margin-top: 1em;
 	}
 
+	.work-list h3 { /* same size as .list h3 in list.css, so the list looks alike on the home page */
+		font-size: 1.35em;
+		margin: 0 0 0.2em 0;
+	}
+
 	.work-list p {
 		font-size: 1em;
 	}
@@ -778,6 +783,10 @@
 			width: 70%;
 			max-width: 320px;
 			margin: 13px 2em;
+		}
+
+		.work-list h3 {
+			font-size: 1.15em;
 		}
 
 		.contact-grid {
@@ -1234,8 +1243,20 @@
 	#one p.intro { margin-top: 2em; }
 	#one p.intro a { color: inherit; }
 	#one h4 { margin-bottom: 0.5em; }
+	#two > h2 { margin-bottom: 0.5em; }
+	#two .work-list { margin-top: 0.8em; } /* a little tighter under the heading than the Exhibition's 1em (1.5em below 980px) */
+	@media screen and (max-width: 980px) { #two .work-list { margin-top: 1.3em; } }
+	#two .work-list > article { /* indent 0.2em under the heading instead of the Exhibition's 1.5em + gutter; capped text column instead of the Exhibition's 85% */
+		margin-left: calc(2 * var(--bleed) - var(--gutter));
+		padding-left: 0.2em;
+		width: auto;
+		max-width: 38em;
+	}
+	#two .work-list .reference { margin-bottom: 0.3em; }
+	#two .work-list .reference a { color: inherit; border-bottom: none; } /* quiet DOI link, like the intro link; turns green on hover */
+	#two .work-list .reference b { font-weight: 700; color: inherit; } /* PRL-style bold volume number and own name; Source Sans Pro 700 is loaded for this */
 	#three { margin-top: 2em !important; } /* inline style override: #main > section sets 4em */
-	.actions-spaced { margin-top: 1.3em; }
+	ul.actions-spaced { margin-top: 2em; } /* type selector so it also outranks the ul.actions reset below 480px */
 	.submit-row { margin-top: 1em; }
 
 /* Contact form — CSS Grid (replaces Skel div.row.uniform.50% + 6u/12u$ cells) */
