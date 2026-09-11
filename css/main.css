@@ -134,7 +134,11 @@
 	sub {
 		font-size: 0.8em;
 		position: relative;
-		top: 0.5em;
+		top: 0.25em; /* the template's 0.5em sat far too low for e.g. high-Tc */
+	}
+
+	sub.tight {
+		margin-left: -0.15em; /* tucks the subscript under an overhanging letter such as an italic T */
 	}
 
 	sup {
@@ -677,6 +681,11 @@
 		margin-top: 1em;
 	}
 
+	.work-list h3 { /* same size as .list h3 in list.css, so the list looks alike on the home page */
+		font-size: 1.35em;
+		margin: 0 0 0.2em 0;
+	}
+
 	.work-list p {
 		font-size: 1em;
 	}
@@ -774,6 +783,10 @@
 			width: 70%;
 			max-width: 320px;
 			margin: 13px 2em;
+		}
+
+		.work-list h3 {
+			font-size: 1.15em;
 		}
 
 		.contact-grid {
@@ -1230,8 +1243,25 @@
 	#one p.intro { margin-top: 2em; }
 	#one p.intro a { color: inherit; }
 	#one h4 { margin-bottom: 0.5em; }
+	#two > h2 { margin-bottom: 0.5em; }
+	#two .work-list { margin-top: 0.8em; } /* a little tighter under the heading than the Exhibition's 1em (1.5em below 980px) */
+	@media screen and (max-width: 980px) { #two .work-list { margin-top: 1.3em; } }
+	#two .work-list > article { /* a little more indent than the Exhibition's 1.5em, and a capped text column instead of its 85% */
+		margin-left: 2.1em;
+		width: auto;
+		max-width: calc(38em + var(--gutter)); /* border-box: the gutter is the left padding, so the text column is 38em */
+	}
+	#two .work-list h3 { position: relative; }
+	#two .work-list h3::before { /* a disc bullet in the gutter, giving the indent a visible reason */
+		content: "\2022";
+		position: absolute;
+		left: -0.9em;
+	}
+	#two .work-list .reference { margin-bottom: 0.3em; }
+	#two .work-list .reference a { color: inherit; border-bottom: none; } /* quiet DOI link, like the intro link; turns green on hover */
+	#two .work-list .reference b { font-weight: 700; color: inherit; } /* PRL-style bold volume number and own name; Source Sans Pro 700 is loaded for this */
 	#three { margin-top: 2em !important; } /* inline style override: #main > section sets 4em */
-	.actions-spaced { margin-top: 1.3em; }
+	ul.actions-spaced { margin-top: 2em; } /* type selector so it also outranks the ul.actions reset below 480px */
 	.submit-row { margin-top: 1em; }
 
 /* Contact form — CSS Grid (replaces Skel div.row.uniform.50% + 6u/12u$ cells) */

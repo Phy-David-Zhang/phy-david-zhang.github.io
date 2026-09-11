@@ -1,6 +1,6 @@
 ---
 layout: default
-description: "Academic gateway of Dr. Zhang Chang-kai: research on strongly correlated systems with tensor networks and AdS/CFT, articles, lecture notes and comments."
+description: "Academic gateway of Dr. Zhang Chang-kai: research on strongly correlated electrons and the Hubbard model with tensor networks and artificial intelligence, articles, lecture notes and comments."
 ---
 <!-- Main -->
       <div id="main">
@@ -11,43 +11,42 @@ description: "Academic gateway of Dr. Zhang Chang-kai: research on strongly corr
               <h2>Striving for the stars, standing on the ground</h2>
               <h2 class="chn">仰 望 星 空，脚 踏 实 地</h2>
             </header>
-            <p class="intro">This is the academic gateway of <a href="/About-My-Name">Dr. Zhang Chang-kai</a>, leading to all the works, including projects, articles and comments. My major devotion to physics concentrates on the theoretical and computational analysis of strongly correlated systems. As a growing physicist, most of my current accomplishments involve the refinements and philosophical insights towards well-established high energy and condensed matter theories.
+            <p class="intro">This is the academic gateway of <a href="/About-My-Name">Dr. Zhang Chang-kai</a>, leading to all the works, including projects, articles and comments. My major devotion to physics concentrates on the theoretical and computational analysis of strongly correlated systems. I received my doctorate in physics from the Ludwig-Maximilians-Universität München in 2026 under the supervision of Prof. Jan von Delft, with a thesis on tensor network methods and artificial intelligence study of the two-dimensional Hubbard model, the archetypal model behind high-<em>T</em><sub class="tight">c</sub> superconductivity in cuprates.
         	</p>
             <h4>Research Interest</h4>
-            <p>Recently, I am attracted by conducting theoretical and computational investigations via powerful tools including AdS/CFT correspondence and numerous tensor network algorithms in an attempt to resolve the mysteries in strongly correlated systems. Currently, I am working on the application of tensor networks to various quantum lattice models.</p>
+            <p>What fascinates me most is how simple rules governing many interacting electrons give rise to remarkable collective phenomena, high-temperature superconductivity above all. I am particularly curious about the competing magnetic and superconducting tendencies in the doped Hubbard model and about how such correlated phases evolve with temperature. Beyond specific models, my interests extend to the tools themselves: pushing tensor network methods toward more challenging systems, and exploring how artificial intelligence, especially attention-based architectures, may learn and interpret quantum many-body physics from the data of simulations and cold-atom experiments.</p>
           </section>
 
         <!-- Two -->
           <section id="two">
             <h2>Research Work</h2>
-            <div class="work-group">
-              <div class="work-row">
-                <article class="work-item">
-                  <a href="/Gauge-Gravity-Duality" class="image fit thumb"><img src="/images/Gauge_Gravity.png" alt="" width="1080" height="873" loading="lazy" decoding="async" /></a>
-                </article>
-                <div class="illustration">
-                  <a href="/Gauge-Gravity-Duality"><h2>Gauge Gravity Duality</h2></a>
-                  <p>General review on the Gauge Gravity Duality and its application to holographic entanglement entropy.</p>
-                </div>
-              </div>
-              <div class="work-row">
-                <article class="work-item">
-                  <a href="/Tensor-Networks" class="image fit thumb"><img src="/images/iPEPS_Titlepage.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
-                </article>
-                <div class="illustration">
-                  <a href="/Tensor-Networks"><h2>Tensor Networks</h2></a>
-                  <p>Symmetric infinite Projected-Entangled Pair State (iPEPS) study of two-dimensional quantum lattice models.</p>
-                </div>
-              </div>
-              <div class="work-row">
-                <article class="work-item">
-                  <a href="/Structure-of-Physics" class="image fit thumb"><img src="/images/Structure_of_Physics.png" alt="" width="1080" height="871" loading="lazy" decoding="async" /></a>
-                </article>
-                <div class="illustration">
-                  <a href="/Structure-of-Physics"><h2>Structure of Physics</h2></a>
-                  <p>This article elaborates the construction of fundamental theory of Physics based solely on requirements on self-consistency.</p>
-                </div>
-              </div>
+            <p>Strongly correlated matter usually features collective degrees of freedom emerging from, yet bearing little resemblance to, its constituent particles, and identifying such emergent structure has relied heavily on physical insight. These works attempt to offer a systematic approach, with tensor network simulations providing faithful many-body states and an AI framework extracting the collective patterns from snapshots.</p>
+            <div class="work-list">
+
+              <!-- Frustration-Induced Superconductivity in the t-t' Hubbard Model -->
+              <article class="work-item">
+                <a href="{{ '/assets/Hubbard-iPEPS-PRL-2025.pdf' | relative_url }}">
+                  <h3>Frustration-Induced Superconductivity in the Hubbard Model</h3></a>
+                <p class="reference"><a href="https://doi.org/10.1103/PhysRevLett.134.116502"><b>C. Zhang</b>, J.-W. Li, D. Nikolaidou, and J. von Delft, <cite>Phys. Rev. Lett.</cite> <b>134</b>, 116502 (2025).</a></p>
+                <p>Symmetric infinite projected entangled-pair state study of the ground state of the doped Hubbard model in the thermodynamic limit, showing how magnetic frustration suppresses stripe orders and stabilizes superconductivity.</p>
+              </article>
+
+              <!-- Finite-Temperature Study of the Hubbard Model via Enhanced XTRG -->
+              <article class="work-item">
+                <a href="{{ '/assets/Hubbard-XTRG-PRB-2026.pdf' | relative_url }}">
+                  <h3>Finite-Temperature Study of the Hubbard Model</h3></a>
+                <p class="reference"><a href="https://doi.org/10.1103/7m9y-v22h"><b>C. Zhang</b> and J. von Delft, <cite>Phys. Rev. B</cite> <b>114</b>, 125114 (2026).</a></p>
+                <p>An enhanced exponential tensor renormalization group algorithm that cools the two-dimensional Hubbard model to unprecedentedly low temperatures, enabling a direct look at superconducting order and pseudogap behavior.</p>
+              </article>
+
+              <!-- Interpretable AI Analysis of Strongly Correlated Electrons -->
+              <article class="work-item">
+                <a href="{{ '/assets/Hubbard-AI-arXiv-2025.pdf' | relative_url }}">
+                  <h3>Interpretable AI Analysis of Strongly Correlated Electrons</h3></a>
+                <p class="reference"><a href="https://doi.org/10.48550/arXiv.2510.26864"><b>C. Zhang</b> and J. von Delft, arXiv:2510.26864 (2025).</a></p>
+                <p>Attention-based artificial intelligence architectures that learn from snapshots of tensor network simulations of the Hubbard model, offering fresh perspectives on the quantum correlations behind Mott insulators, anomalous metals and superconductivity.</p>
+              </article>
+
             </div>
             <ul class="actions actions-spaced">
               <li><a href="/Exhibition" class="button">View More</a></li>
