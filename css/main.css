@@ -374,9 +374,37 @@
 			text-transform: none !important;
 		}
 
-		.icon > .label {
-			display: none;
+		/* Inline SVG glyphs (see _includes/icon.html). Sized like the former webfont glyph run:
+		   1em tall on the em box (ascent 1536 / descent 256 of 1792), advance width per glyph,
+		   and the same half-leading as an inline text run so the line box is unchanged. The
+		   baseline of a replaced inline is its bottom margin edge, hence the margin in vertical-align. */
+		.svg-icon {
+			display: inline-block;
+			height: 1em;
+			width: 0.8571em; /* 1536 / 1792 */
+			vertical-align: -0.1429em; /* 256 / 1792 below the baseline; fallback without lh support */
+			margin: calc((1lh - 1em) / 2) 0;
+			vertical-align: calc(-0.1429em - (1lh - 1em) / 2);
+			fill: currentColor;
 		}
+
+			.svg-icon-telegram {
+				width: 1em; /* 1792 / 1792 */
+			}
+
+	/* Text kept for assistive technology but removed from the visual layout */
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		border: 0;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+		clip-path: inset(50%);
+		white-space: nowrap;
+	}
 
 /* Image */
 
@@ -501,7 +529,7 @@
 					padding-right: 0;
 				}
 
-				ul.icons li .icon:before {
+				ul.icons li .icon .svg-icon {
 					font-size: 1.5em;
 				}
 

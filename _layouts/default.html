@@ -34,22 +34,17 @@
     <footer id="footer">
       <ul class="icons">
         {% for account in site.data.social %}
+        {% assign icon_name = account.social_icon | slugify %}
         <li>
-          <a href="{% include relative-src.html src=account.link %}"{% if account.new_window %} target="_blank" rel="noopener"{% endif %}{% if account.social_icon %} class="icon icon-social fa-{{ account.social_icon | slugify }}"{% endif %}>
-            <span class="label">{{ account.name }}</span>
-          </a>
+          <a href="{% include relative-src.html src=account.link %}"{% if account.new_window %} target="_blank" rel="noopener"{% endif %}{% if account.social_icon %} class="icon icon-social"{% endif %}>{% if account.social_icon %}{% include icon.html name=icon_name %}{% endif %}<span class="visually-hidden">{{ account.name }}</span></a>
         </li>
         {% endfor %}
         <li class="icon-resume-item">
-          <a href="/assets/Resume.pdf" class="icon icon-resume fa-snapchat">
-            <span class="label">Resume</span>
-          </a>
+          <a href="/assets/Resume.pdf" class="icon icon-resume">{% include icon.html name="snapchat" %}<span class="visually-hidden">Resume</span></a>
         </li>
         {% if site.author.email %}
         <li>
-          <a href="mailto:{{ site.author.email }}" class="icon icon-email fa-telegram">
-            <span class="label">Email</span>
-          </a>
+          <a href="mailto:{{ site.author.email }}" class="icon icon-email">{% include icon.html name="telegram" %}<span class="visually-hidden">Email</span></a>
         </li>
         {% endif %}
       </ul>

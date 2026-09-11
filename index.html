@@ -77,7 +77,7 @@ description: "Academic gateway of Dr. Zhang Chang-kai: research on strongly corr
                 <ul class="labeled-icons">
                   {% for location in site.data.contact.locations %}
                   <li>
-                    <h3 class="icon fa-podcast"><span class="label">Address</span></h3>
+                    <h3 class="icon">{% include icon.html name="podcast" %}<span class="visually-hidden">Address</span></h3>
                     {{ location.name }},<br />
                     {{ location.street }},<br />
                     {{ location.zip }}, {{ location.city }}, {{ location.country }}
