@@ -1246,11 +1246,16 @@
 	#two > h2 { margin-bottom: 0.5em; }
 	#two .work-list { margin-top: 0.8em; } /* a little tighter under the heading than the Exhibition's 1em (1.5em below 980px) */
 	@media screen and (max-width: 980px) { #two .work-list { margin-top: 1.3em; } }
-	#two .work-list > article { /* indent 0.2em under the heading instead of the Exhibition's 1.5em + gutter; capped text column instead of the Exhibition's 85% */
-		margin-left: calc(2 * var(--bleed) - var(--gutter));
-		padding-left: 0.2em;
+	#two .work-list > article { /* a little more indent than the Exhibition's 1.5em, and a capped text column instead of its 85% */
+		margin-left: 2.1em;
 		width: auto;
-		max-width: 38em;
+		max-width: calc(38em + var(--gutter)); /* border-box: the gutter is the left padding, so the text column is 38em */
+	}
+	#two .work-list h3 { position: relative; }
+	#two .work-list h3::before { /* a disc bullet in the gutter, giving the indent a visible reason */
+		content: "\2022";
+		position: absolute;
+		left: -0.9em;
 	}
 	#two .work-list .reference { margin-bottom: 0.3em; }
 	#two .work-list .reference a { color: inherit; border-bottom: none; } /* quiet DOI link, like the intro link; turns green on hover */
